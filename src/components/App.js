@@ -1,9 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+//default imports (to be deleted)
+import logo from '../logo.svg';
+import '../App.css';
+
+import React from 'react';
+import { Route, Switch } from "react-router-dom";
+
+import Header from './Header';
+
 
 function App() {
   return (
     <div className="App">
+      <Header />
+      
+      {/* below to be deleted */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
