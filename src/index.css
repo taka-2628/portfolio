@@ -17,3 +17,10 @@ body {
   border: black solid 1pt;
 }
 
+nav {
+  text-align: right;
+}
+
+header h1 {
+  display: inline-block;
+}
