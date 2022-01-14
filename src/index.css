@@ -9,12 +9,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.App {
+.border-black {
   position: relative;
   min-height: calc(100vh - 40px);
   width: 100%;
   text-align: center;
   border: black solid 1pt;
+}
+
+.black {
+  position: relative;
+  min-height: calc(100vh - 40px);
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+.gray {
+  position: relative;
+  min-height: calc(100vh - 40px);
+  width: 100%;
+  text-align: center;
+  background-color: #eeeeee;
 }
 
 nav {

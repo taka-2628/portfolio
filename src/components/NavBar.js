@@ -5,9 +5,8 @@ const linkStyles = {
   display: "inline-block",
   padding: "12px",
   margin: "0 6px 6px",
-  background: "blue",
   textDecoration: "none",
-  color: "white",
+  color: "black",
 };
 
 function NavBar(){
@@ -18,7 +17,7 @@ function NavBar(){
         exact
         style={linkStyles}
         activeStyle={{
-          background: "darkblue",
+          textDecoration: "underline",
         }}
       >
         About
@@ -28,7 +27,7 @@ function NavBar(){
         exact
         style={linkStyles}
         activeStyle={{
-          background: "darkblue",
+          textDecoration: "underline",
         }}
       >
         Web
@@ -38,7 +37,7 @@ function NavBar(){
         exact
         style={linkStyles}
         activeStyle={{
-          background: "darkblue",
+          textDecoration: "underline",
         }}
       >
         Architecture
@@ -48,7 +47,7 @@ function NavBar(){
         exact
         style={linkStyles}
         activeStyle={{
-          background: "darkblue",
+          textDecoration: "underline",
         }}
       >
         Photography

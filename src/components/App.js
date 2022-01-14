@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Route, Switch } from "react-router-dom";
 
 import Header from './Header';
@@ -7,9 +7,15 @@ import Web from './Web';
 import Architecture from './Architecture';
 import Photography from './Photography';
 
+//import { BackgroundContext } from './context/background';
+
 function App() {
+  const [ background, setBackground ] = useState("border-black");
+  //const {background, setBackground} = useContext(BackgroundContext)
+  // gray / black / border-black
+
   return (
-    <div className="App">
+    <div className= {background}>
       <Header />
       <Switch>
         <Route exact path="/">
