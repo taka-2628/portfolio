@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 
-const BackgroundContext = React.createContext;
+const BackgroundContext = React.createContext();
 
 function BackgroundProvider({ children }){
   const [background, setBackground] = useState("border-black");
 
   return (
-    <BackgroundContext.Povider value={{ background, setBackground}}>
+    <BackgroundContext.Provider value={{ background, setBackground}}>
       {children}
-    </BackgroundContext.Povider>
+    </BackgroundContext.Provider>
   )
 }
 

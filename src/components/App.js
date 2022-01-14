@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { Route, Switch } from "react-router-dom";
 
 import Header from './Header';
@@ -7,11 +7,11 @@ import Web from './Web';
 import Architecture from './Architecture';
 import Photography from './Photography';
 
-//import { BackgroundContext } from './context/background';
+import { BackgroundContext } from './context/background';
 
 function App() {
-  const [ background, setBackground ] = useState("border-black");
-  //const {background, setBackground} = useContext(BackgroundContext)
+  const { background } = useContext(BackgroundContext);
+
   // gray / black / border-black
 
   return (
