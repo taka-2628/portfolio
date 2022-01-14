@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
-
-const linkStyles = {
-  display: "inline-block",
-  padding: "12px",
-  margin: "0 6px 6px",
-  textDecoration: "none",
-  color: "black",
-};
+import { BackgroundContext } from './context/background';
 
 function NavBar(){
+  const { background } = useContext(BackgroundContext);
+  const linkStyles = {
+    display: "inline-block",
+    padding: "12px",
+    margin: "0 6px 6px",
+    textDecoration: "none",
+    color: background !== "black" ? "black" : "white",
+  }
+
   return (
     <nav>
       <NavLink

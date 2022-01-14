@@ -11,7 +11,6 @@ import { BackgroundContext } from './context/background';
 
 function App() {
   const { background } = useContext(BackgroundContext);
-
   // gray / black / border-black
 
   return (
