@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 function Header(){
   return (
     <header>
-      <h1>Takashi Honzawa</h1>
+      <h1 id="logo">TH</h1>
       <NavBar />
     </header>
   )

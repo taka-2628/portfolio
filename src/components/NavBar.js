@@ -6,8 +6,7 @@ function NavBar(){
   const { background } = useContext(BackgroundContext);
   const linkStyles = {
     display: "inline-block",
-    padding: "12px",
-    margin: "0 6px 6px",
+    padding: "0 0 0 24px",
     textDecoration: "none",
     color: background !== "black" ? "black" : "white",
   }
