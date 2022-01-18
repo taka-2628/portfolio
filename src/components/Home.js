@@ -14,8 +14,9 @@ function Home(){
   }, [])
 
   return (
-    <div>
-      <h1>Home</h1>
+    <div id="home">
+      <h1>Takashi</h1>
+      <p>is a creative developer</p>
       <SelectedWork />
     </div>
   )

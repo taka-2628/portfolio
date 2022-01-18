@@ -3,8 +3,8 @@ import { useRouteMatch } from "react-router-dom";
 import { BackgroundContext } from './context/background';
 import "../stylesheets/Web.css";
 
-import bundleGIF from "../assets/01-BUNDLE.gif";
-import actorGIF from "../assets/02-52711-Actors.gif";
+import bundleGIF from "../assets/web/01-BUNDLE.gif";
+import actorGIF from "../assets/web/02-52711-Actors.gif";
 import mediumLogo from "../assets/medium-logo_white.png";
 import githubLogo from "../assets/github-logo_white.png";
 
