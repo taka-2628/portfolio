@@ -34,14 +34,14 @@ function NavBar(){
         Web
       </NavLink>
       <NavLink
-        to="/architecture"
+        to="/space-design-tech"
         exact
         style={linkStyles}
         activeStyle={{
           textDecoration: "underline",
         }}
       >
-        Architecture
+        Space + Design + Tech
       </NavLink>
       <NavLink
         to="/photography"

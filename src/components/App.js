@@ -5,7 +5,7 @@ import "../stylesheets/App.css";
 import Header from './Header';
 import Home from './Home';
 import Web from './Web';
-import Architecture from './Architecture';
+import SpaceDesignTech from './SpaceDesignTech';
 import Photography from './Photography';
 
 import { BackgroundContext } from './context/background';
@@ -24,8 +24,8 @@ function App() {
         <Route exact path="/web">
           <Web/>
         </Route>
-        <Route exact path="/architecture">
-          <Architecture/>
+        <Route exact path="/space-design-tech">
+          <SpaceDesignTech />
         </Route>
         <Route exact path="/photography">
           <Photography/>

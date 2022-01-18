@@ -2,7 +2,7 @@ import React, { useContext, useEffect }  from "react";
 import { useRouteMatch } from "react-router-dom";
 import { BackgroundContext } from './context/background';
 
-function Architecture(){
+function SpaceDesignTech(){
   const match = useRouteMatch();
   console.log(match);
 
@@ -14,9 +14,9 @@ function Architecture(){
 
   return (
     <div>
-      <h1>Architecture</h1>
+      <h1>Space | Design | Tech</h1>
     </div>
   )
 }
 
-export default Architecture;
+export default SpaceDesignTech;
