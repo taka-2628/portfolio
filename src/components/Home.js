@@ -1,8 +1,9 @@
 import React, { useContext, useEffect }  from "react";
 import { useRouteMatch } from "react-router-dom";
+import SelectedWork from "./SelectedWorks";
 import { BackgroundContext } from './context/background';
 
-function About(){
+function Home(){
   const match = useRouteMatch();
   console.log(match);
 
@@ -14,9 +15,10 @@ function About(){
 
   return (
     <div>
-      <h1>About</h1>
+      <h1>Home</h1>
+      <SelectedWork />
     </div>
   )
 }
 
-export default About;
+export default Home;

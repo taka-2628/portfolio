@@ -21,7 +21,7 @@ function NavBar(){
           textDecoration: "underline",
         }}
       >
-        About
+        Home
       </NavLink>
       <NavLink
         to="/web"
