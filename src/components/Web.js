@@ -1,6 +1,7 @@
 import React, { useContext, useEffect }  from "react";
 import { useRouteMatch } from "react-router-dom";
 import { BackgroundContext } from './context/background';
+import "../stylesheets/Web.css";
 
 import bundleGIF from "../assets/01-BUNDLE.gif";
 import actorGIF from "../assets/02-52711-Actors.gif";

@@ -1,0 +1,63 @@
+#web {
+  padding: 15px 3%;
+  display: flex;
+  align-items: flex-start;
+  color: white;
+}
+
+.web-gif {
+  width: 90%;
+  border: none;
+  border-radius: 30px;
+}
+
+.work-description {
+  text-align: left;
+  margin: 0 5%;
+}
+
+.web-project-link:link {
+  color: white;
+  text-decoration: none;
+}
+
+.web-project-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.web-project-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.website-logo-wrapper {
+  margin-left: 5px;
+}
+
+.website-logo {
+  width: 1rem;
+  vertical-align: -15%;
+  margin: 0 2px;
+}
+
+.collaborator {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.collaborator a:link {
+  color: white;
+}
+
+.collaborator a:visited {
+  color: white;
+}
+
+.paragraph {
+  text-justify: left;
+}
