@@ -2,31 +2,11 @@ import React, { useContext, useEffect }  from "react";
 import { useRouteMatch } from "react-router-dom";
 import { BackgroundContext } from './context/background';
 
-//import { web } from "../data/data.js"
-//import bundle from "../assets/01-BUNDLE.gif"
+import { web } from "../data/data.js"
+import mediumLogo from "../assets/medium-logo_white.png";
+import githubLogo from "../assets/github-logo_white.png";
 
-const web = [
-  {
-    id: 1,
-    title: "BUNDLE",
-    image: "../assets/01-BUNDLE.gif",
-    description: "",
-    url: "",
-    github: "https://github.com/taka-2628/BUNDLE",
-    selected: true
-  },
-  {
-    id: 2,
-    title: "LIFE AND DEATH OF 52,711 ACTORS",
-    image: "../assets/02-52711-Actors.gif",
-    description: "",
-    url: "",
-    github: "https://github.com/taka-2628/52711_ACTORS",
-    selected: false
-  }
-]
-
-function Web(){
+function Web2(){
   const match = useRouteMatch();
   console.log(match);
   console.log(web);
@@ -37,21 +17,41 @@ function Web(){
     setBackground("black")
   }, [])
 
-  const a = web.map((project) => {
-    console.log(project)
+  const webProjects = web.map((project) => {
+    console.log(project);
+    
     return (
-      <div key={project.title}>
-         <img src={project.image} alt={project.title}></img>
-         <h2>{project.title}</h2>
+      <div key={project.title} className="web-project-container">
+        <a href={project.url} target="_blank" rel="noopener noreferrer">
+          <img className="web-gif" src={project.image} alt={project.title}></img>
+        </a>
+        <div className="work-description">
+          <a href={project.url} target="_blank" rel="noopener noreferrer" className="web-project-link">
+            <h2 className="title">{project.title}</h2>
+          </a>
+          <i className="subtitle">{project.subtitle}</i>
+          <p className="project-detail">
+            {project.school} | {project.year} |
+            <span className="website-logo-wrapper">
+              <a href={project.medium} target="_blank" rel="noopener noreferrer">
+                <img className="website-logo" src={mediumLogo}></img>
+              </a>
+              <a href={project.github} target="_blank" rel="noopener noreferrer">
+                <img className="website-logo" src={githubLogo}></img>
+              </a>
+            </span>
+          </p>
+          <p className="paragraph">{project.description}</p>
+        </div>
       </div>
     )
   })
+
   return (
     <div id="web">
-      <h1>Web</h1>
-      {a}
+      {webProjects}
     </div>
   )
 }
 
-export default Web;
+export default Web2;

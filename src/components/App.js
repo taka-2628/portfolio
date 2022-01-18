@@ -9,6 +9,7 @@ import SpaceDesignTech from './SpaceDesignTech';
 import Photography from './Photography';
 
 import { BackgroundContext } from './context/background';
+import Web2 from './WebDoesNotWork';
 
 function App() {
   const { background } = useContext(BackgroundContext);
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route exact path="/photography">
           <Photography/>
+        </Route>
+        <Route exact path="/web2">
+          <Web2/>
         </Route>
       </Switch>
     </div>
