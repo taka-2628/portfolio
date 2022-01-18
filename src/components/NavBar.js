@@ -3,7 +3,8 @@ import { NavLink } from "react-router-dom";
 import { BackgroundContext } from './context/background';
 
 function NavBar(){
-  const { background } = useContext(BackgroundContext);
+  const { background, setBackground } = useContext(BackgroundContext);
+
   const linkStyles = {
     display: "inline-block",
     padding: "0 0 0 24px",
@@ -14,6 +15,7 @@ function NavBar(){
   return (
     <nav>
       <NavLink
+        onClick={()=> setBackground("border-black")}
         to="/"
         exact
         style={linkStyles}
@@ -24,6 +26,7 @@ function NavBar(){
         Home
       </NavLink>
       <NavLink
+        onClick={()=> setBackground("black")}
         to="/web"
         exact
         style={linkStyles}
@@ -34,6 +37,7 @@ function NavBar(){
         Web
       </NavLink>
       <NavLink
+        onClick={()=> setBackground("border-black")}
         to="/space-design-tech"
         exact
         style={linkStyles}

@@ -26,4 +26,9 @@ const web = [
   }
 ]
 
-export { web }
+const gifs = [
+  {image: "../assets/web/01-BUNDLE.gif"},
+  {image: "../assets/web/02-52711-Actors.gif"}
+]
+
+export { web, gifs }

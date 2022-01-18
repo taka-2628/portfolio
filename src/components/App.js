@@ -13,7 +13,6 @@ import Web2 from './WebDoesNotWork';
 
 function App() {
   const { background } = useContext(BackgroundContext);
-  // gray / black / border-black
 
   return (
     <div className= {background}>

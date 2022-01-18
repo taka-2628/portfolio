@@ -6,13 +6,13 @@ import { BackgroundContext } from './context/background';
 function Home(){
   const match = useRouteMatch();
   console.log(match);
-
+  /*
   const { setBackground } = useContext(BackgroundContext);
 
   useEffect(()=> {
     setBackground("border-black")
   }, [])
-
+  */
   return (
     <div id="home">
       <h1>Takashi</h1>

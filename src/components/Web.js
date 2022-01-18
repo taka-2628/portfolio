@@ -11,13 +11,13 @@ import githubLogo from "../assets/github-logo_white.png";
 function Web(){
   const match = useRouteMatch();
   console.log(match);
-
+  /*
   const { setBackground } = useContext(BackgroundContext);
-
+  
   useEffect(()=> {
     setBackground("black")
   }, [])
-
+  */
   return (
     <div id="web">
       <div className="web-project-container">

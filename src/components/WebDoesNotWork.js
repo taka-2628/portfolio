@@ -1,5 +1,4 @@
 import React, { useContext, useEffect }  from "react";
-import { useRouteMatch } from "react-router-dom";
 import { BackgroundContext } from './context/background';
 
 import { web } from "../data/data.js"
@@ -7,10 +6,6 @@ import mediumLogo from "../assets/medium-logo_white.png";
 import githubLogo from "../assets/github-logo_white.png";
 
 function Web2(){
-  const match = useRouteMatch();
-  console.log(match);
-  console.log(web);
-
   const { setBackground } = useContext(BackgroundContext);
 
   useEffect(()=> {
@@ -18,8 +13,7 @@ function Web2(){
   }, [])
 
   const webProjects = web.map((project) => {
-    console.log(project);
-    
+    console.log(project.image)
     return (
       <div key={project.title} className="web-project-container">
         <a href={project.url} target="_blank" rel="noopener noreferrer">
