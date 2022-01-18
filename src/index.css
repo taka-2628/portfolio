@@ -79,9 +79,31 @@ header {
   text-decoration: underline;
 }
 
+.title {
+  margin-bottom: 15px;
+}
+
+.website-logo-wrapper {
+  margin-left: 5px;
+}
+
 .website-logo {
   width: 1rem;
   vertical-align: -15%;
+  margin: 0 2px;
+}
+
+.collaborator {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.collaborator a:link {
+  color: white;
+}
+
+.collaborator a:visited {
+  color: white;
 }
 
 .paragraph {
