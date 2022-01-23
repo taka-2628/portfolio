@@ -1,3 +1,9 @@
+import bundleGif from "../assets/web/01-BUNDLE.gif";
+import actorsGif from "../assets/web/02-52711-Actors.gif";
+
+console.log(bundleGif);
+console.log(actorsGif);
+
 const web = [
   {
     id: 1,

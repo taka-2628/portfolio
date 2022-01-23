@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For my phase 2 project at Flatiron school, I built a portfolio website for myself. 
 
 ## Available Scripts
 
