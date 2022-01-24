@@ -9,7 +9,9 @@ import SpaceDesignTech from './SpaceDesignTech';
 import Photography from './Photography';
 
 import { BackgroundContext } from './context/background';
-import Web2 from './WebDoesNotWork';
+import { web } from '../data/data';
+
+import WebHardCoded from './WebHardCoded';
 
 function App() {
   const { background } = useContext(BackgroundContext);
@@ -22,7 +24,7 @@ function App() {
           <Home/>
         </Route>
         <Route exact path="/web">
-          <Web/>
+          <Web data={web} />
         </Route>
         <Route exact path="/space-design-tech">
           <SpaceDesignTech />
@@ -31,7 +33,7 @@ function App() {
           <Photography/>
         </Route>
         <Route exact path="/web2">
-          <Web2/>
+          <WebHardCoded />
         </Route>
       </Switch>
     </div>
