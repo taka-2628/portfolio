@@ -16,6 +16,8 @@ const web = [
     url: "https://taka-2628.github.io/portfolio/",
     github: "https://github.com/taka-2628/BUNDLE",
     medium: "https://takashi-honzawa.medium.com/bundle-my-first-spa-project-3e1a7f692b27",
+    collaborator: null,
+    collaborator_url: "",
     selected: true
   },
   {
@@ -28,6 +30,9 @@ const web = [
     year: 2021,
     url: "https://taka-2628.github.io/52711_ACTORS/",
     github: "https://github.com/taka-2628/52711_ACTORS",
+    medium: "",
+    collaborator: "Anays Gonzalez",
+    collaborator_url: "https://www.arch.columbia.edu/student-work?student_name_contains=Anays%20Gonzalez",
     selected: false
   }
 ]

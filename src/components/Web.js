@@ -23,12 +23,21 @@ function Web( {data} ){
           <p className="project-detail">
             {project.school} | {project.year} |
             <span className="website-logo-wrapper">
-              <a href={project.medium} target="_blank" rel="noopener noreferrer">
+              {project.medium ? 
+              <a href={project.medium} target="_blank" rel="noopener noreferrer"> 
                 <img className="website-logo" src={mediumLogo}></img>
-              </a>
+              </a> : 
+              null }
+              {project.github ? 
               <a href={project.github} target="_blank" rel="noopener noreferrer">
                 <img className="website-logo" src={githubLogo}></img>
-              </a>
+              </a> : 
+              null }
+              {project.collaborator ? 
+              <span className="collaborator">- in collaboration with&nbsp; 
+                <a href={project.collaborator_url} target="_blank" rel="noopener noreferrer">{project.collaborator}</a>
+              </span> : 
+              null }
             </span>
           </p>
           <p className="paragraph">{project.description}</p>
