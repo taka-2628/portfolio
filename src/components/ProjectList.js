@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function ProjectList( {data} ){
   const sdtProjects = data.map((project) => {
     return (
-      <div id={project.id} className="card">
+      <div key={project.id} className="card">
         <a>
           <img src={project.cover} alt={project.title}></img>
         </a>

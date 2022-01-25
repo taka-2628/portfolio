@@ -3,10 +3,10 @@ import bundleGif from "../assets/web/01-BUNDLE.gif";
 import actorsGif from "../assets/web/02-52711-Actors.gif";
 
 // space-design-tech project assets
-import aIVCover from "../assets/space-design-tech/a-IV-01.jpg";
-import cICover from "../assets/space-design-tech/c-I-01.jpg";
+import aIVCover from "../assets/space-design-tech/a-IV-00.jpg";
+import cICover from "../assets/space-design-tech/c-I-00.jpg";
 import cIICover from "../assets/space-design-tech/c-II-00.jpg";
-import cIIICover from "../assets/space-design-tech/c-III-01.jpg";
+import cIIICover from "../assets/space-design-tech/c-III-00.jpg";
 import mgiHTDNCover from "../assets/space-design-tech/mgi-how-to-do-nothing-00.gif";
 import mgiSharedKitchenCover from "../assets/space-design-tech/mgi-shared-kitchen-00.gif";
 
@@ -20,7 +20,7 @@ const web = [
     description: " BUNDLE is a simple portfolio aggregator/tracker for stock and crypto investors. It fetches real-time price data from APIs and calculates the total value and unrealized gain/loss of a portfolio.",
     school: "Flatiron School",
     year: 2021,
-    url: "https://taka-2628.github.io/portfolio/",
+    url: "https://taka-2628.github.io/BUNDLE/",
     github: "https://github.com/taka-2628/BUNDLE",
     medium: "https://takashi-honzawa.medium.com/bundle-my-first-spa-project-3e1a7f692b27",
     collaborator: null,
