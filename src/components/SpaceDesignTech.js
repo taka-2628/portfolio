@@ -16,7 +16,6 @@ function SpaceDesignTech( {data} ){
         <ProjectList data={data}/>
       </Route>
       
-      <h1>Space | Design | Tech</h1>
       <Project />
     </div>
   )
