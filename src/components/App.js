@@ -9,7 +9,7 @@ import SpaceDesignTech from './SpaceDesignTech';
 import Photography from './Photography';
 
 import { BackgroundContext } from './context/background';
-import { web } from '../data/data';
+import { web, sdt } from '../data/data';
 
 import WebHardCoded from './WebHardCoded';
 
@@ -27,7 +27,7 @@ function App() {
           <Web data={web} />
         </Route>
         <Route exact path="/space-design-tech">
-          <SpaceDesignTech />
+          <SpaceDesignTech data={sdt} />
         </Route>
         <Route exact path="/photography">
           <Photography/>

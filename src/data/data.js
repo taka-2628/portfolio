@@ -3,6 +3,13 @@ import bundleGif from "../assets/web/01-BUNDLE.gif";
 import actorsGif from "../assets/web/02-52711-Actors.gif";
 
 // space-design-tech project assets
+import aIVCover from "../assets/space-design-tech/a-IV-01.jpg";
+import cICover from "../assets/space-design-tech/c-I-01.jpg";
+import cIICover from "../assets/space-design-tech/c-II-00.jpg";
+import cIIICover from "../assets/space-design-tech/c-III-01.jpg";
+import mgiHTDNCover from "../assets/space-design-tech/mgi-how-to-do-nothing-00.gif";
+import mgiSharedKitchenCover from "../assets/space-design-tech/mgi-shared-kitchen-00.gif";
+
 
 const web = [
   {
@@ -37,9 +44,37 @@ const web = [
   }
 ]
 
-const gifs = [
-  {image: "../assets/web/01-BUNDLE.gif"},
-  {image: "../assets/web/02-52711-Actors.gif"}
+const sdt = [
+  {
+    id: 1,
+    title: "Continuum",
+    cover: mgiHTDNCover
+  },
+  {
+    id: 2,
+    title: "",
+    cover: mgiSharedKitchenCover
+  },
+  {
+    id: 3,
+    title: "",
+    cover: cICover
+  },
+  {
+    id: 4,
+    title: "",
+    cover: cIICover
+  },
+  {
+    id: 5,
+    title: "",
+    cover: cIIICover
+  },
+  {
+    id: 6,
+    title: "",
+    cover: aIVCover
+  }
 ]
 
-export { web, gifs }
+export { web, sdt }

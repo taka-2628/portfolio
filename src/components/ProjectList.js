@@ -1,13 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function ProjectList(){
-  const id = "ultrareal";
-
+function ProjectList( {data} ){
+  const sdtProjects = data.map((project) => {
+    return (
+      <div id={project.id} className="card">
+        <a>
+          <img src={project.cover} alt={project.title}></img>
+        </a>
+      </div>
+    )
+  })
+  console.log(data)
   return (
-    <div>
-      <h1>ProjectList</h1>
-        <Link to={`/projects/${id}`}></Link>
+    <div className="cards">
+      {sdtProjects}
     </div>
   )
 }
