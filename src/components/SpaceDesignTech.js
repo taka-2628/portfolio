@@ -8,7 +8,7 @@ function SpaceDesignTech( {data} ){
   
   const sdtProjects = data.map((project) => {
     return (
-      <div key={project.id} className="card">
+      <div key={project.title} className="card">
         <Link to={`/space-design-tech/${project.id}`}>
           <img src={project.cover} alt={project.title}></img>
         </Link>

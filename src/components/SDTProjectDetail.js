@@ -8,7 +8,7 @@ function SDTProject({ data }){
   return (
     <div>
       <h1>hello</h1>
-      { data.filter(project => (project.id = params.id)).map(project => (<img key={project.title} src={project.cover}></img>)) }
+      { data.filter(project => (project.id = params.id)).map(selectedProject => (<img key={selectedProject.title} src={selectedProject.cover}></img>)) }
     </div>
   )
 }

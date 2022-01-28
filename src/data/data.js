@@ -46,33 +46,33 @@ const web = [
 
 const sdt = [
   {
-    id: 1,
-    title: "Continuum",
+    id: "how-to-do-nothing",
+    title: "How to do nothing",
     cover: mgiHTDNCover
   },
   {
-    id: 2,
-    title: "",
+    id: "shared-kitchen",
+    title: "Shared Kitchen",
     cover: mgiSharedKitchenCover
   },
   {
-    id: 3,
-    title: "",
+    id: "core-I",
+    title: "Core I",
     cover: cICover
   },
   {
-    id: 4,
-    title: "",
+    id: "core-II",
+    title: "Core II",
     cover: cIICover
   },
   {
-    id: 5,
-    title: "",
+    id: "core-III",
+    title: "Core III",
     cover: cIIICover
   },
   {
-    id: 6,
-    title: "",
+    id: "adv-IV",
+    title: "Continuum",
     cover: aIVCover
   }
 ]
