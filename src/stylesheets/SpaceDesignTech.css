@@ -1,5 +1,8 @@
 .cards {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0 3%;
+  margin: 0 -1rem;
 }
 
 .card {
@@ -11,11 +14,6 @@
 }
 
 @media (min-width: 480px) {
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .card {
     width: calc(50% - 2rem);
   }

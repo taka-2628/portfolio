@@ -1,22 +1,24 @@
 import React from "react";
-import { Route, useRouteMatch } from "react-router-dom";
+import { useRouteMatch, Link } from "react-router-dom";
 import "../stylesheets/SpaceDesignTech.css";
-
-import ProjectList from "./ProjectList";
-import Project from "./Project";
 
 function SpaceDesignTech( {data} ){
   const match = useRouteMatch();
   console.log(match);
-
+  
+  const sdtProjects = data.map((project) => {
+    return (
+      <div key={project.id} className="card">
+        <Link to={`/space-design-tech/${project.id}`}>
+          <img src={project.cover} alt={project.title}></img>
+        </Link>
+      </div>
+    )
+  })
 
   return (
-    <div>
-      <Route exact path={match.url}>
-        <ProjectList data={data}/>
-      </Route>
-      
-      <Project />
+    <div className="cards">
+        {sdtProjects}
     </div>
   )
 }
