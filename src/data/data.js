@@ -60,7 +60,7 @@ import mgiSharedKitchenCover from "../assets/space-design-tech/mgi-shared-kitche
 import mgiSharedKitchen2Diagram from "../assets/space-design-tech/mgi-shared-kitchen-02.gif";
 import mgiSharedKitchen3Diagram from "../assets/space-design-tech/mgi-shared-kitchen-03.gif";
 import mgiSharedKitchen4Prec from "../assets/space-design-tech/mgi-shared-kitchen-04.jpg";
-import mgiSharedKitchen5Prec from "../assets/space-design-tech/mgi-shared-kitchen-05.jpg";
+import mgiSharedKitchen5Prec from "../assets/space-design-tech/mgi-shared-kitchen-05.jpeg";
 import mgiSharedKitchen6Prec from "../assets/space-design-tech/mgi-shared-kitchen-06.jpg";
 import mgiSharedKitchen7Diagram from "../assets/space-design-tech/mgi-shared-kitchen-07.gif";
 import mgiSharedKitchen8Diagram from "../assets/space-design-tech/mgi-shared-kitchen-08.gif";
@@ -106,16 +106,39 @@ const sdt = [
     id: "how-to-do-nothing",
     title: "How to do nothing",
     thumbnail: mgiHTDNThumbnail,
+    detail: {
+      year: 2021,
+      school: "Columbia University",
+      class: "Measuring the Great Indoor",
+      critic: "Violet Whitney"
+    },
+    collaborators: null,
     content: {
-      cover_image: mgiHTDNThumbnail,
-      project_desk: "",
-
-    }
+      cover_image: mgiHTDNCover,
+    },
+    selected: true
   },
   {
     id: "shared-kitchen",
     title: "Shared Kitchen",
-    thumbnail: mgiSharedKitchenThumbnail
+    thumbnail: mgiSharedKitchenThumbnail,
+    detail: {
+      year: 2021,
+      school: "Columbia University",
+      class: "Measuring the Great Indoor",
+      critic: "Violet Whitney"
+    },
+    collaborators: [
+      {name: "Jacob Kackley", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Jacob%20Kackley"},
+      {name: "Karan Matta", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Karan%20Matta"},
+      {name: "Kylie Walker", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Kylie%20Walker"}
+    ],
+    content: {
+      cover_image: mgiSharedKitchenCover,
+      project_desc: "",
+
+    },
+    selected: true
   },
   {
     id: "core-I",

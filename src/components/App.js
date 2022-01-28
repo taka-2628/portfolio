@@ -6,8 +6,10 @@ import Header from './Header';
 import Home from './Home';
 import Web from './Web';
 import SpaceDesignTech from './SpaceDesignTech';
-import SDTProject from './SDTProjectDetail';
+import SDTProject from './SDTProject';
+import HowToDoNothing from './HowToDoNothing';
 import Photography from './Photography';
+
 
 import { BackgroundContext } from './context/background';
 import { web, sdt } from '../data/data';
@@ -21,15 +23,11 @@ function App() {
     <div className= {background}>
       <Header />
       <Switch>
-        
         <Route exact path="/web">
           <Web data={web} />
         </Route>
-        <Route exact path="/space-design-tech">
+        <Route path="/space-design-tech">
           <SpaceDesignTech data={sdt} />
-        </Route>
-        <Route exact path="/space-design-tech/:id">
-          <SDTProject data={sdt} />
         </Route>
         <Route exact path="/photography">
           <Photography/>

@@ -1,24 +1,31 @@
 import React from "react";
-import { useRouteMatch, Link } from "react-router-dom";
+import { Route, useRouteMatch } from "react-router-dom";
 import "../stylesheets/SpaceDesignTech.css";
+
+import SDTProjectList from "./SDTProjectList";
+import HowToDoNothing from './HowToDoNothing';
+import SharedKitchen from "./SharedKitchen";
+
 
 function SpaceDesignTech( {data} ){
   const match = useRouteMatch();
   console.log(match);
-  
-  const sdtProjects = data.map((project) => {
-    return (
-      <div key={project.title} className="card">
-        <Link to={`/space-design-tech/${project.id}`}>
-          <img src={project.thumbnail} alt={project.title}></img>
-        </Link>
-      </div>
-    )
-  })
-
+ 
   return (
     <div className="cards">
-        {sdtProjects}
+        {/*sdtProjects*/}
+        
+          <Route exact path={`${match.url}`}>
+            <SDTProjectList data={data}/>
+          </Route>
+
+          <Route exact path={`${match.url}/how-to-do-nothing`}>
+            <HowToDoNothing data={data}/>
+          </Route>
+          <Route exact path={`${match.url}/shared-kitchen`}>
+            <SharedKitchen data={data}/>
+          </Route>
+
     </div>
   )
 }
