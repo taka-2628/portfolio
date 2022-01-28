@@ -10,7 +10,7 @@ function SpaceDesignTech( {data} ){
     return (
       <div key={project.title} className="card">
         <Link to={`/space-design-tech/${project.id}`}>
-          <img src={project.cover} alt={project.title}></img>
+          <img src={project.thumbnail} alt={project.title}></img>
         </Link>
       </div>
     )

@@ -3,12 +3,35 @@ import bundleGif from "../assets/web/01-BUNDLE.gif";
 import actorsGif from "../assets/web/02-52711-Actors.gif";
 
 // space-design-tech project assets
-import aIVCover from "../assets/space-design-tech/a-IV-00.jpg";
-import cICover from "../assets/space-design-tech/c-I-00.jpg";
-import cIICover from "../assets/space-design-tech/c-II-00.jpg";
-import cIIICover from "../assets/space-design-tech/c-III-00.jpg";
-import mgiHTDNCover from "../assets/space-design-tech/mgi-how-to-do-nothing-00.gif";
-import mgiSharedKitchenCover from "../assets/space-design-tech/mgi-shared-kitchen-00.gif";
+import aIVThumbnail from "../assets/space-design-tech/a-IV-00.jpg";
+import aIVCover from "../assets/space-design-tech/a-IV-01.jpg";
+import AIV2Map from "../assets/space-design-tech/a-IV-02.jpg";
+import AIV3Collage from "../assets/space-design-tech/a-IV-03.jpg";
+import AIV4Collage from "../assets/space-design-tech/a-IV-04.jpg";
+import AIV5Collage from "../assets/space-design-tech/a-IV-05.jpg";
+import AIV6Collage from "../assets/space-design-tech/a-IV-06.jpg";
+import AIV7Collage from "../assets/space-design-tech/a-IV-07.jpg";
+import AIV8Collage from "../assets/space-design-tech/a-IV-08.jpg";
+import AIV9Collage from "../assets/space-design-tech/a-IV-09.jpg";
+import AIV10Collage from "../assets/space-design-tech/a-IV-10.jpg";
+import AIV11Collage from "../assets/space-design-tech/a-IV-11.jpg";
+import AIV12Collage from "../assets/space-design-tech/a-IV-12.jpg";
+
+import cIThumbnail from "../assets/space-design-tech/c-I-00.jpg";
+import cICover from "../assets/space-design-tech/c-I-01.jpg";
+import cI2Axon from "../assets/space-design-tech/c-I-02.jpg";
+import cI3Urban from "../assets/space-design-tech/c-I-03.jpg";
+import cI4DayNight from "../assets/space-design-tech/c-I-04.jpg";
+import cI5Plan from "../assets/space-design-tech/c-I-05.jpg";
+import cI6Diagram from "../assets/space-design-tech/c-I-06.jpg";
+import cI7Model from "../assets/space-design-tech/c-I-07.jpg";
+import cI8Model from "../assets/space-design-tech/c-I-08.jpg";
+
+import cIIThumbnail from "../assets/space-design-tech/c-II-00.jpg";
+
+import cIIIThumbnail from "../assets/space-design-tech/c-III-00.jpg";
+import mgiHTDNThumbnail from "../assets/space-design-tech/mgi-how-to-do-nothing-00.gif";
+import mgiSharedKitchenThumbnail from "../assets/space-design-tech/mgi-shared-kitchen-00.gif";
 
 
 const web = [
@@ -48,32 +71,37 @@ const sdt = [
   {
     id: "how-to-do-nothing",
     title: "How to do nothing",
-    cover: mgiHTDNCover
+    thumbnail: mgiHTDNThumbnail,
+    content: {
+      cover_image: ,
+      project_desk: "",
+
+    }
   },
   {
     id: "shared-kitchen",
     title: "Shared Kitchen",
-    cover: mgiSharedKitchenCover
+    thumbnail: mgiSharedKitchenThumbnail
   },
   {
     id: "core-I",
     title: "Core I",
-    cover: cICover
+    thumbnail: cIThumbnail
   },
   {
     id: "core-II",
     title: "Core II",
-    cover: cIICover
+    thumbnail: cIIThumbnail
   },
   {
     id: "core-III",
     title: "Core III",
-    cover: cIIICover
+    thumbnail: cIIIThumbnail
   },
   {
     id: "adv-IV",
     title: "Continuum",
-    cover: aIVCover
+    thumbnail: aIVThumbnail
   }
 ]
 
