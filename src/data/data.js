@@ -28,8 +28,25 @@ import cI7Model from "../assets/space-design-tech/c-I-07.jpg";
 import cI8Model from "../assets/space-design-tech/c-I-08.jpg";
 
 import cIIThumbnail from "../assets/space-design-tech/c-II-00.jpg";
+import cIICover from "../assets/space-design-tech/c-II-01.png";
+import cII2Plan from "../assets/space-design-tech/c-II-02.jpg";
+import cII3Plan from "../assets/space-design-tech/c-II-03.jpg";
+import cII4ConstDiagram from "../assets/space-design-tech/c-II-04.jpg";
 
 import cIIIThumbnail from "../assets/space-design-tech/c-III-00.jpg";
+import cIIICover from "../assets/space-design-tech/c-III-01.jpg";
+import cIII2Section from "../assets/space-design-tech/c-III-02.jpg";
+import cIII3Collage from "../assets/space-design-tech/c-III-03.jpg";
+import cIII4Collage from "../assets/space-design-tech/c-III-04.jpg";
+import cIII5Collage from "../assets/space-design-tech/c-III-05.jpg";
+import cIII6Collage from "../assets/space-design-tech/c-III-06.jpg";
+import cIII7Plan from "../assets/space-design-tech/c-III-07.jpg";
+import cIII8Plan from "../assets/space-design-tech/c-III-08.jpg";
+import cIII9PlanDiagram from "../assets/space-design-tech/c-III-09.jpg";
+import cIII10PlanDiagram from "../assets/space-design-tech/c-III-10.jpg";
+import cIII11Diagram from "../assets/space-design-tech/c-III-11.jpg";
+import cIII12Diagram from "../assets/space-design-tech/c-III-12.jpg";
+
 import mgiHTDNThumbnail from "../assets/space-design-tech/mgi-how-to-do-nothing-00.gif";
 import mgiSharedKitchenThumbnail from "../assets/space-design-tech/mgi-shared-kitchen-00.gif";
 
@@ -73,7 +90,7 @@ const sdt = [
     title: "How to do nothing",
     thumbnail: mgiHTDNThumbnail,
     content: {
-      cover_image: ,
+      cover_image: mgiHTDNThumbnail,
       project_desk: "",
 
     }
