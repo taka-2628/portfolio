@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3a5f03fd.css",
-    "main.js": "/portfolio/static/js/main.d8bc321f.js",
+    "main.css": "/portfolio/static/css/main.dd2f6e7d.css",
+    "main.js": "/portfolio/static/js/main.ac6144c4.js",
     "static/media/mgi-how-to-do-nothing-00.gif": "/portfolio/static/media/mgi-how-to-do-nothing-00.f6c7490f6ff90662f0e4.gif",
     "static/media/c-II-01.png": "/portfolio/static/media/c-II-01.0ee1394a013bfb542222.png",
     "static/media/02-52711-Actors.gif": "/portfolio/static/media/02-52711-Actors.3c02d7ba44ac2c4cee99.gif",
@@ -13,11 +13,11 @@
     "static/media/c-I-00.jpg": "/portfolio/static/media/c-I-00.ae635a40ee19ec30f778.jpg",
     "static/media/github-logo_white.png": "/portfolio/static/media/github-logo_white.ec139bc4178082e22b22.png",
     "index.html": "/portfolio/index.html",
-    "main.3a5f03fd.css.map": "/portfolio/static/css/main.3a5f03fd.css.map",
-    "main.d8bc321f.js.map": "/portfolio/static/js/main.d8bc321f.js.map"
+    "main.dd2f6e7d.css.map": "/portfolio/static/css/main.dd2f6e7d.css.map",
+    "main.ac6144c4.js.map": "/portfolio/static/js/main.ac6144c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a5f03fd.css",
-    "static/js/main.d8bc321f.js"
+    "static/css/main.dd2f6e7d.css",
+    "static/js/main.ac6144c4.js"
   ]
 }
