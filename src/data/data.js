@@ -48,8 +48,25 @@ import cIII11Diagram from "../assets/space-design-tech/c-III-11.jpg";
 import cIII12Diagram from "../assets/space-design-tech/c-III-12.jpg";
 
 import mgiHTDNThumbnail from "../assets/space-design-tech/mgi-how-to-do-nothing-00.gif";
-import mgiSharedKitchenThumbnail from "../assets/space-design-tech/mgi-shared-kitchen-00.gif";
+import mgiHTDNCover from "../assets/space-design-tech/mgi-how-to-do-nothing-01.gif";
+import mgiHTDN2Schedule from "../assets/space-design-tech/mgi-how-to-do-nothing-02.jpg";
+import mgiHTDN3Gadget from "../assets/space-design-tech/mgi-how-to-do-nothing-03.jpg";
+import mgiHTDN4Gadget from "../assets/space-design-tech/mgi-how-to-do-nothing-04.jpg";
+import mgiHTDN5Gadget from "../assets/space-design-tech/mgi-how-to-do-nothing-05.jpg";
+import mgiHTDN6Gadget from "../assets/space-design-tech/mgi-how-to-do-nothing-06.jpg";
 
+import mgiSharedKitchenThumbnail from "../assets/space-design-tech/mgi-shared-kitchen-00.gif";
+import mgiSharedKitchenCover from "../assets/space-design-tech/mgi-shared-kitchen-01.mp4";
+import mgiSharedKitchen2Diagram from "../assets/space-design-tech/mgi-shared-kitchen-02.gif";
+import mgiSharedKitchen3Diagram from "../assets/space-design-tech/mgi-shared-kitchen-03.gif";
+import mgiSharedKitchen4Prec from "../assets/space-design-tech/mgi-shared-kitchen-04.jpg";
+import mgiSharedKitchen5Prec from "../assets/space-design-tech/mgi-shared-kitchen-05.jpg";
+import mgiSharedKitchen6Prec from "../assets/space-design-tech/mgi-shared-kitchen-06.jpg";
+import mgiSharedKitchen7Diagram from "../assets/space-design-tech/mgi-shared-kitchen-07.gif";
+import mgiSharedKitchen8Diagram from "../assets/space-design-tech/mgi-shared-kitchen-08.gif";
+import mgiSharedKitchen9Diagram from "../assets/space-design-tech/mgi-shared-kitchen-09.gif";
+import mgiSharedKitchen10Test from "../assets/space-design-tech/mgi-shared-kitchen-10.gif";
+import mgiSharedKitchen11Test from "../assets/space-design-tech/mgi-shared-kitchen-11.gif";
 
 const web = [
   {
