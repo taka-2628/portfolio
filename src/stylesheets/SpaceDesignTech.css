@@ -30,3 +30,51 @@
     width: calc(25% - 2rem);
   }
 }
+
+.sdt-project-container {
+  width: 45%;
+  margin: 0 auto;
+  text-align: left;
+}
+.sdt-project-container h1 {
+  margin: 20px 0;
+  font-size: 42pt;
+}
+
+.sdt-project-detail {
+  margin-bottom: 30px;
+}
+.sdt-project-detail p {
+  margin: 8px 0;
+}
+
+.sdt-project p {
+  line-height: 150%;
+} 
+
+
+#how-to-do-nothing-gif {
+  margin: 10px auto;
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+
+#how-to-do-nothing-calender {
+  margin: 10px auto;
+  position: relative;
+  left: -10%;
+  width: 120%;
+}
+
+#gadgets {
+  padding: 20px 0;
+  position: relative;
+  left: -10%;
+  width: 120%;
+}
+#gadgets img {
+  width: 22.5%;
+  border-radius: 50%;
+  margin: 1.25%;
+}

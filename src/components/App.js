@@ -6,10 +6,8 @@ import Header from './Header';
 import Home from './Home';
 import Web from './Web';
 import SpaceDesignTech from './SpaceDesignTech';
-import SDTProject from './SDTProject';
-import HowToDoNothing from './SDTProjects/HowToDoNothing';
 import Photography from './Photography';
-
+import Footer from './Footer';
 
 import { BackgroundContext } from './context/background';
 import { web, sdt } from '../data/data';
@@ -21,7 +19,7 @@ function App() {
 
   return (
     <>
-      <div className={background == "black-border" ? "border" : "none"}></div>
+      <div className={background == "black-border" ? "border" : null}></div>
       <div className= {background}>
         <Header />
         <Switch>
@@ -40,11 +38,10 @@ function App() {
           <Route exact path="/">
             <Home/>
           </Route>
-          
         </Switch>
+        {/*<Footer />*/}
       </div>
     </>
-    
   );
 }
 

@@ -64,7 +64,6 @@ body:after{
   height: calc(100vh - 40px);
   width: 100%;
   text-align: center;
-  border: black solid 1pt;
   background-color: black;
 }
 
@@ -73,7 +72,6 @@ body:after{
   height: calc(100vh - 40px);
   width: 100%;
   text-align: center;
-  border: #eeeeee solid 1pt;
   background-color: #eeeeee;
 }
 
@@ -88,3 +86,18 @@ header {
   margin-right: auto;
 }
 
+#footer {
+  margin-top: 120px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#break {
+  width: 30%;
+  margin: 0 auto;
+}
+#break hr {
+  border: none;
+    color: #bbb;
+    background-color: #bbb;
+    height: 1px;
+}

@@ -49,7 +49,8 @@ import cIII12Diagram from "../assets/space-design-tech/c-III-12.jpg";
 
 import mgiHTDNThumbnail from "../assets/space-design-tech/mgi-how-to-do-nothing-00.gif";
 import mgiHTDNCover from "../assets/space-design-tech/mgi-how-to-do-nothing-01.gif";
-import mgiHTDN2Schedule from "../assets/space-design-tech/mgi-how-to-do-nothing-02.jpg";
+//import mgiHTDN2Schedule from "../assets/space-design-tech/mgi-how-to-do-nothing-02.jpg";
+import mgiHTDN2Schedule from "../assets/space-design-tech/mgi-how-to-do-nothing-02.png";
 import mgiHTDN3Gadget from "../assets/space-design-tech/mgi-how-to-do-nothing-03.jpg";
 import mgiHTDN4Gadget from "../assets/space-design-tech/mgi-how-to-do-nothing-04.jpg";
 import mgiHTDN5Gadget from "../assets/space-design-tech/mgi-how-to-do-nothing-05.jpg";
@@ -104,7 +105,7 @@ const web = [
 const sdt = [
   {
     id: "how-to-do-nothing",
-    title: "How to do nothing",
+    title: "How To Do Nothing",
     thumbnail: mgiHTDNThumbnail,
     detail: {
       year: 2021,
@@ -113,8 +114,13 @@ const sdt = [
       critic: "Violet Whitney"
     },
     collaborators: null,
-    content: {
+    images: {
       cover_image: mgiHTDNCover,
+      image2: mgiHTDN2Schedule,
+      image3: mgiHTDN3Gadget,
+      image4: mgiHTDN4Gadget,
+      image5: mgiHTDN5Gadget,
+      image6: mgiHTDN6Gadget,
     },
     selected: true
   },
@@ -129,8 +135,8 @@ const sdt = [
       critic: "Violet Whitney"
     },
     collaborators: [
-      {name: "Jacob Kackley", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Jacob%20Kackley"},
-      {name: "Karan Matta", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Karan%20Matta"},
+      {name: "Jacob Kackley,", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Jacob%20Kackley"},
+      {name: "Karan Matta,", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Karan%20Matta"},
       {name: "Kylie Walker", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Kylie%20Walker"}
     ],
     content: {
