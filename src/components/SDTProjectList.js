@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useRouteMatch, Link } from "react-router-dom";
+import { BackgroundContext } from './context/background';
 
 function SDTProjectList( {data} ){
   const match = useRouteMatch();
-  console.log(match);
-  
+  const { setBackground } = useContext(BackgroundContext);
+
   const sdtProjects = data.map((project) => {
     return (
       <div key={project.id} className="card">
-        <Link to={`${match.url}/${project.id}`}>
+        <Link to={`${match.url}/${project.id}`} onClick={()=> setBackground("white")}>
           <img src={project.thumbnail} alt={project.title}></img>
         </Link>
       </div>

@@ -3,8 +3,9 @@ import { Route, useRouteMatch } from "react-router-dom";
 import "../stylesheets/SpaceDesignTech.css";
 
 import SDTProjectList from "./SDTProjectList";
-import HowToDoNothing from './HowToDoNothing';
-import SharedKitchen from "./SharedKitchen";
+import HowToDoNothing from './SDTProjects/HowToDoNothing';
+import SharedKitchen from "./SDTProjects/SharedKitchen";
+import UrbanCampsite from "./SDTProjects/UrbanCampsite";
 
 
 function SpaceDesignTech( {data} ){
@@ -12,9 +13,7 @@ function SpaceDesignTech( {data} ){
   console.log(match);
  
   return (
-    <div className="cards">
-        {/*sdtProjects*/}
-        
+    <div>
           <Route exact path={`${match.url}`}>
             <SDTProjectList data={data}/>
           </Route>
@@ -25,7 +24,9 @@ function SpaceDesignTech( {data} ){
           <Route exact path={`${match.url}/shared-kitchen`}>
             <SharedKitchen data={data}/>
           </Route>
-
+          <Route exact path={`${match.url}/urban-campsite`}>
+            <UrbanCampsite data={data}/>
+          </Route>
     </div>
   )
 }

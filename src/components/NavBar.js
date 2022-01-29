@@ -15,7 +15,7 @@ function NavBar(){
   return (
     <nav>
       <NavLink
-        onClick={()=> setBackground("border-black")}
+        onClick={()=> setBackground("black-border")}
         to="/"
         exact
         style={linkStyles}
@@ -37,7 +37,7 @@ function NavBar(){
         Web
       </NavLink>
       <NavLink
-        onClick={()=> setBackground("border-black")}
+        onClick={()=> setBackground("black-border")}
         to="/space-design-tech"
         exact
         style={linkStyles}

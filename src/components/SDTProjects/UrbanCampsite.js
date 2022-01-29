@@ -1,11 +1,8 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 
-function HowToDoNothing({data}){
-  const params = useParams();
-  console.log(params);
+function UrbanCampsite({data}){
 
-  const projectClicked = data.filter(project => (project.id === "how-to-do-nothing"));
+  const projectClicked = data.filter(project => (project.id === "urban-campsite"));
   const projectToDisplay = projectClicked.map(project => {
         if(project.selected){
           return (
@@ -37,4 +34,4 @@ function HowToDoNothing({data}){
   )
 }
 
-export default HowToDoNothing;
+export default UrbanCampsite;

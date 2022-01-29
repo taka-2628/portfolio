@@ -7,19 +7,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
 }
 
-.border-black {
-  position: relative;
-  min-height: calc(100vh - 40px);
-  width: 100%;
+html:before,html:after,body:before,body:after{
+  content:"";
+  background:#ffffff;
+  position:fixed;
+  display:block;
+  z-index:5;
+}
+
+/* ...and position them! */
+html:before{
+  height:20px;
+  left:0;
+  right:0;
+  top:0;
+}
+html:after{
+  width:20px;
+  top:0;
+  right:0;
+  bottom:0;
+}
+body:before{
+  height:20px;
+  right:0;
+  bottom:0;
+  left:0;
+}
+body:after{
+  width:20px;
+  top:0;
+  bottom:0;
+  left:0;
+}
+
+.border {
+  position: fixed;
+  height: calc(100vh - 43px);
+  width: calc(100vw - 58px);
   text-align: center;
   border: black solid 1pt;
 }
 
+.white, .black-border {
+  position: relative;
+  height: calc(100vh - 40px);
+  width: 100%;
+  text-align: center;
+}
+
 .black {
   position: relative;
-  min-height: calc(100vh - 40px);
+  height: calc(100vh - 40px);
   width: 100%;
   text-align: center;
   border: black solid 1pt;
@@ -28,7 +70,7 @@ body {
 
 .gray {
   position: relative;
-  min-height: calc(100vh - 40px);
+  height: calc(100vh - 40px);
   width: 100%;
   text-align: center;
   border: #eeeeee solid 1pt;

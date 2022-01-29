@@ -141,13 +141,13 @@ const sdt = [
     selected: true
   },
   {
-    id: "core-I",
-    title: "Core I",
+    id: "urban-campsite",
+    title: "Inflatable Urban Campground",
     thumbnail: cIThumbnail
   },
   {
-    id: "core-II",
-    title: "Core II",
+    id: "illumination-school",
+    title: "Illumination School",
     thumbnail: cIIThumbnail
   },
   {

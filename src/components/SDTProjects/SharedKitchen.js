@@ -1,9 +1,6 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 
 function SharedKitchen({data}){
-  const params = useParams();
-  console.log(params);
 
   const projectClicked = data.filter(project => (project.id === "shared-kitchen"));
   const projectToDisplay = projectClicked.map(project => {
