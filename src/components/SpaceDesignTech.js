@@ -8,7 +8,7 @@ import SharedKitchen from "./SDTProjects/SharedKitchen";
 import UrbanCampsite from "./SDTProjects/UrbanCampsite";
 import IlluminationSchool from "./SDTProjects/IlluminationSchool";
 import CourtyardDialogue from "./SDTProjects/CourtyardDialogue";
-
+import Continuum from "./SDTProjects/Continuum";
 
 function SpaceDesignTech( {data} ){
   const match = useRouteMatch();
@@ -34,6 +34,9 @@ function SpaceDesignTech( {data} ){
           </Route>
           <Route exact path={`${match.url}/courtyard-dialogue`}>
             <CourtyardDialogue data={data}/>
+          </Route>
+          <Route exact path={`${match.url}/continuum`}>
+            <Continuum data={data}/>
           </Route>
     </div>
   )
