@@ -5,17 +5,17 @@ import actorsGif from "../assets/web/02-52711-Actors.gif";
 // space-design-tech project assets
 import aIVThumbnail from "../assets/space-design-tech/a-IV-00.jpg";
 import aIVCover from "../assets/space-design-tech/a-IV-01.jpg";
-import AIV2Map from "../assets/space-design-tech/a-IV-02.jpg";
-import AIV3Collage from "../assets/space-design-tech/a-IV-03.jpg";
-import AIV4Collage from "../assets/space-design-tech/a-IV-04.jpg";
-import AIV5Collage from "../assets/space-design-tech/a-IV-05.jpg";
-import AIV6Collage from "../assets/space-design-tech/a-IV-06.jpg";
-import AIV7Collage from "../assets/space-design-tech/a-IV-07.jpg";
-import AIV8Collage from "../assets/space-design-tech/a-IV-08.jpg";
-import AIV9Collage from "../assets/space-design-tech/a-IV-09.jpg";
-import AIV10Collage from "../assets/space-design-tech/a-IV-10.jpg";
-import AIV11Collage from "../assets/space-design-tech/a-IV-11.jpg";
-import AIV12Collage from "../assets/space-design-tech/a-IV-12.jpg";
+import aIV2Map from "../assets/space-design-tech/a-IV-02.jpg";
+import aIV3Collage from "../assets/space-design-tech/a-IV-03.jpg";
+import aIV4Collage from "../assets/space-design-tech/a-IV-04.jpg";
+import aIV5Collage from "../assets/space-design-tech/a-IV-05.jpg";
+import aIV6Collage from "../assets/space-design-tech/a-IV-06.jpg";
+import aIV7Collage from "../assets/space-design-tech/a-IV-07.jpg";
+import aIV8Collage from "../assets/space-design-tech/a-IV-08.jpg";
+import aIV9Collage from "../assets/space-design-tech/a-IV-09.jpg";
+import aIV10Collage from "../assets/space-design-tech/a-IV-10.jpg";
+import aIV11Collage from "../assets/space-design-tech/a-IV-11.jpg";
+import aIV12Collage from "../assets/space-design-tech/a-IV-12.jpg";
 
 import cIThumbnail from "../assets/space-design-tech/c-I-00.jpg";
 import cICover from "../assets/space-design-tech/c-I-01.jpg";
@@ -171,17 +171,80 @@ const sdt = [
   {
     id: "illumination-school",
     title: "Illumination School",
-    thumbnail: cIIThumbnail
+    thumbnail: cIIThumbnail,
+    detail: {
+      year: 2020,
+      school: "Columbia University",
+      class: "Grounds For Play",
+      critic: "Erica Goetz"
+    },
+    collaborators: null,
+    images: {
+      cover_image: cIICover,
+      image2: cII2Plan,
+      image3: cII3Plan,
+      image4: cII4ConstDiagram,
+    },
+    selected: false
   },
   {
-    id: "core-III",
-    title: "Core III",
-    thumbnail: cIIIThumbnail
+    id: "courtyard-dialogue",
+    title: "Courtyard Dialogue",
+    thumbnail: cIIIThumbnail,
+    detail: {
+      year: 2020,
+      school: "Columbia University",
+      class: "Housing Sharing Again",
+      critic: "Galia Solomonoff"
+    },
+    collaborators: [
+      {name: "Danielle Nir,", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Danielle%20Nir"}
+    ],
+    images: {
+      cover_image: cIIICover,
+      image2: cIII2Section,
+      image3: cIII3Collage,
+      image4: cIII4Collage,
+      image5: cIII5Collage,
+      image6: cIII6Collage,
+      image7: cIII7Plan,
+      image8: cIII8Plan,
+      image9: cIII9PlanDiagram,
+      image10: cIII10PlanDiagram,
+      image11: cIII11Diagram,
+      image12: cIII12Diagram,
+    },
+    selected: false
   },
   {
-    id: "adv-IV",
+    id: "continuum",
     title: "Continuum",
-    thumbnail: aIVThumbnail
+    thumbnail: aIVThumbnail,
+    detail: {
+      year: 2021,
+      school: "Columbia University",
+      class: "Dark Rurality",
+      critic: "Jerome Haferd"
+    },
+    collaborators: [
+      {name: "Agnes Anggada,", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Agnes%20Anggada"},
+      {name: "Danielle Nir,", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Danielle%20Nir"}
+    ],
+    images: {
+      cover_image: aIVCover,
+      image2: aIV2Map,
+      image3: aIV3Collage,
+      image4: aIV4Collage,
+      image5: aIV5Collage,
+      image6: aIV6Collage,
+      image7: aIV7Collage,
+      image8: aIV8Collage,
+      image9: aIV9Collage,
+      image10: aIV10Collage,
+      image11: aIV11Collage,
+      image12: aIV12Collage,
+    },
+    selected: false
   }
 ]
 

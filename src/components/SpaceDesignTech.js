@@ -6,6 +6,7 @@ import SDTProjectList from "./SDTProjectList";
 import HowToDoNothing from './SDTProjects/HowToDoNothing';
 import SharedKitchen from "./SDTProjects/SharedKitchen";
 import UrbanCampsite from "./SDTProjects/UrbanCampsite";
+import IlluminationSchool from "./SDTProjects/IlluminationSchool";
 
 
 function SpaceDesignTech( {data} ){
@@ -26,6 +27,9 @@ function SpaceDesignTech( {data} ){
           </Route>
           <Route exact path={`${match.url}/urban-campsite`}>
             <UrbanCampsite data={data}/>
+          </Route>
+          <Route exact path={`${match.url}/illumination-school`}>
+            <IlluminationSchool data={data}/>
           </Route>
     </div>
   )
