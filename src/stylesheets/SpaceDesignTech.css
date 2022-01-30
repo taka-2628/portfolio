@@ -37,14 +37,12 @@
   margin: 20px 0;
   font-size: 42pt;
 }
-
 .sdt-project-detail {
   margin-bottom: 30px;
 }
 .sdt-project-detail p {
   margin: 8px 0;
 }
-
 .sdt-project {
   padding-bottom: 80px;
 }
@@ -63,7 +61,6 @@
   left: 15%;
   z-index: -10;
 }
-
 #how-to-do-nothing-calender {
   margin: 10px auto;
   position: relative;
@@ -71,7 +68,6 @@
   width: 120%;
   z-index: -10;
 }
-
 #gadgets {
   padding: 20px 0;
   position: relative;
@@ -94,7 +90,6 @@
   left: -10%;
   padding-top: 56.25%;
 }
-
 #shared-kitchen-video {
   position: absolute;
   top: 0;
@@ -105,7 +100,6 @@
   height: 100%;
   border: none
 }
-
 .sk-diagram {
   position: relative;
   left: -10%;
@@ -121,4 +115,11 @@
   position: relative;
   width: 45%;
   margin: 0 2.5%;
+}
+
+/* URBAN CAMPSITE */
+.urban-campsite-img{
+  position: relative;
+  width: 100%;
+  margin: 10px 0;
 }

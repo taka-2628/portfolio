@@ -148,7 +148,25 @@ const sdt = [
   {
     id: "urban-campsite",
     title: "Inflatable Urban Campground",
-    thumbnail: cIThumbnail
+    thumbnail: cIThumbnail,
+    detail: {
+      year: 2019,
+      school: "Columbia University",
+      class: "Broadway Stories",
+      critic: "Anna Puigjaner"
+    },
+    collaborators: null,
+    images: {
+      cover_image: cICover,
+      image2: cI2Axon,
+      image3: cI3Urban,
+      image4: cI4DayNight,
+      image5: cI5Plan,
+      image6: cI6Diagram,
+      image7: cI7Model,
+      image8: cI8Model,
+    },
+    selected: true
   },
   {
     id: "illumination-school",
