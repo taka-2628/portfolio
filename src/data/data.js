@@ -49,7 +49,6 @@ import cIII12Diagram from "../assets/space-design-tech/c-III-12.jpg";
 
 import mgiHTDNThumbnail from "../assets/space-design-tech/mgi-how-to-do-nothing-00.gif";
 import mgiHTDNCover from "../assets/space-design-tech/mgi-how-to-do-nothing-01.gif";
-//import mgiHTDN2Schedule from "../assets/space-design-tech/mgi-how-to-do-nothing-02.jpg";
 import mgiHTDN2Schedule from "../assets/space-design-tech/mgi-how-to-do-nothing-02.png";
 import mgiHTDN3Gadget from "../assets/space-design-tech/mgi-how-to-do-nothing-03.jpg";
 import mgiHTDN4Gadget from "../assets/space-design-tech/mgi-how-to-do-nothing-04.jpg";
@@ -60,14 +59,10 @@ import mgiSharedKitchenThumbnail from "../assets/space-design-tech/mgi-shared-ki
 import mgiSharedKitchenCover from "../assets/space-design-tech/mgi-shared-kitchen-01.mp4";
 import mgiSharedKitchen2Diagram from "../assets/space-design-tech/mgi-shared-kitchen-02.gif";
 import mgiSharedKitchen3Diagram from "../assets/space-design-tech/mgi-shared-kitchen-03.gif";
-import mgiSharedKitchen4Prec from "../assets/space-design-tech/mgi-shared-kitchen-04.jpg";
-import mgiSharedKitchen5Prec from "../assets/space-design-tech/mgi-shared-kitchen-05.jpeg";
-import mgiSharedKitchen6Prec from "../assets/space-design-tech/mgi-shared-kitchen-06.jpg";
-import mgiSharedKitchen7Diagram from "../assets/space-design-tech/mgi-shared-kitchen-07.gif";
-import mgiSharedKitchen8Diagram from "../assets/space-design-tech/mgi-shared-kitchen-08.gif";
-import mgiSharedKitchen9Diagram from "../assets/space-design-tech/mgi-shared-kitchen-09.gif";
-import mgiSharedKitchen10Test from "../assets/space-design-tech/mgi-shared-kitchen-10.gif";
-import mgiSharedKitchen11Test from "../assets/space-design-tech/mgi-shared-kitchen-11.gif";
+import mgiSharedKitchen4Diagram from "../assets/space-design-tech/mgi-shared-kitchen-04.gif";
+import mgiSharedKitchen5Diagram from "../assets/space-design-tech/mgi-shared-kitchen-05.gif";
+import mgiSharedKitchen6Test from "../assets/space-design-tech/mgi-shared-kitchen-06.gif";
+import mgiSharedKitchen7Test from "../assets/space-design-tech/mgi-shared-kitchen-07.gif";
 
 const web = [
   {
@@ -139,10 +134,14 @@ const sdt = [
       {name: "Karan Matta,", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Karan%20Matta"},
       {name: "Kylie Walker", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Kylie%20Walker"}
     ],
-    content: {
+    images: {
       cover_image: mgiSharedKitchenCover,
-      project_desc: "",
-
+      image2: mgiSharedKitchen2Diagram,
+      image3: mgiSharedKitchen3Diagram,
+      image4: mgiSharedKitchen4Diagram,
+      image5: mgiSharedKitchen5Diagram,
+      image6: mgiSharedKitchen6Test,
+      image7: mgiSharedKitchen7Test,
     },
     selected: true
   },

@@ -49,7 +49,7 @@ body:after{
   height: calc(100vh - 43px);
   width: calc(100vw - 58px);
   text-align: center;
-  border: black solid 1pt;
+  border: #000000 solid 1pt;
 }
 
 .white, .black-border {
