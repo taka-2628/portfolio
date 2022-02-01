@@ -48,14 +48,15 @@ function NavBar(){
         Space + Design + Tech
       </NavLink>
       <NavLink
-        to="/photography"
+        onClick={()=> setBackground("black-border")}
+        to="/gsapp-portfolio"
         exact
         style={linkStyles}
         activeStyle={{
           textDecoration: "underline",
         }}
       >
-        Photography
+        GSAPP Portfolio
       </NavLink>
     </nav>
   )

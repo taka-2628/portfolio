@@ -8,8 +8,8 @@ function Home(){
   
   return (
     <div id="home">
-      <h1>Takashi</h1>
-      <p>is a creative developer</p>
+      <h1>I'm Takashi Honzawa</h1>
+      <p>He is a creative developer, product designer, software engineer, experience designer, </p>
       <SelectedWork />
     </div>
   )

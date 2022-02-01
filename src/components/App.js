@@ -6,13 +6,14 @@ import Header from './Header';
 import Home from './Home';
 import Web from './Web';
 import SpaceDesignTech from './SpaceDesignTech';
-import Photography from './Photography';
+import GSAPPPortfolio from './GSAPPPortfolio';
 import Footer from './Footer';
 
 import { BackgroundContext } from './context/background';
 import { web, sdt } from '../data/data';
 
 import WebHardCoded from './WebHardCoded';
+
 
 function App() {
   const { background } = useContext(BackgroundContext);
@@ -29,8 +30,8 @@ function App() {
           <Route path="/space-design-tech">
             <SpaceDesignTech data={sdt} />
           </Route>
-          <Route exact path="/photography">
-            <Photography/>
+          <Route exact path="/gsapp-portfolio">
+            <GSAPPPortfolio/>
           </Route>
           <Route exact path="/web2">
             <WebHardCoded />
