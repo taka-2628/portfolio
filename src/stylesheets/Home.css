@@ -22,12 +22,28 @@
   font-size: 20px;
 }
 
+/* Tags*/
+#tags {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#tags span {
+  margin-right: 20px;
+}
+#tags span:hover {
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
 /* Selected Works*/
+#selected-works {
+  padding-bottom: 40px;
+}
 .grid-container {
   display: grid;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
 }
 
 .grid-item {
@@ -42,6 +58,19 @@
   width: 100%;
   object-fit: contain;
   aspect-ratio: 1 / 1;
+}
+
+.linkgg:link {
+  color: #000000;
+  text-decoration: none;
+}
+.linkgg:visited {
+  color: #000000;
+  text-decoration: none;
+}
+.linkgg:hover {
+  color: #000000;
+  text-decoration: underline;
 }
 
 #selected-works .title {
