@@ -10,10 +10,9 @@ function Home(){
   
   return (
     <div id="home">
-      <h1>Takashi Honzawa</h1>
+      <h1 id="name">Takashi Honzawa</h1>
       <p id="self-description">Architectural Designer turned Creative Developer/Product Designer.</p>
       <p>I am now finishing my Master of Architecture degree at Columbia University and Software Engineering program at Flatiron School.</p>
-      <p>Skilled at a few things: designing both product and experience, animating, prototyping and coding.</p>
       <SelectedWork />
     </div>
   )

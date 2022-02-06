@@ -4,7 +4,7 @@
   text-align: left;
 }
 
-#home h1 {
+#name {
   font-size: 60px;
   margin-bottom: 10px;
 }
@@ -12,4 +12,12 @@
 #self-description {
   font-size: 20px;
   margin-top: 0px;
+}
+
+#selected-works {
+  margin-top: 60px;
+}
+
+#home p {
+  font-size: 20px;
 }

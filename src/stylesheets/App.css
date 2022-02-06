@@ -53,7 +53,7 @@ body:after{
   border: #000000 solid 1pt;
 }
 
-.white, .black-border {
+.black-border {
   position: relative;
   height: calc(100vh - 40px);
   width: 100%;
@@ -85,7 +85,34 @@ header {
 
 #logo {
   margin-right: auto;
+  height: 60px;
 }
+svg {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+/* version 2
+.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+.st1{stroke:#000000;stroke-miterlimit:10;}
+*/
+
+.st0{
+  fill:none;
+  
+  stroke-width:1.5;
+  stroke-miterlimit:10;
+}
+.st1{
+  fill:none;
+  stroke-miterlimit:10;
+}
+
+.logo-black {
+  stroke:#000000;
+} 
+.logo-white {
+  stroke:#ffffff;
+} 
 
 #footer {
   margin-top: 120px;
