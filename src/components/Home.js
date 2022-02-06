@@ -4,7 +4,7 @@ import "../stylesheets/Home.css";
 
 import SelectedWork from "./SelectedWorks";
 
-function Home(){
+function Home( { web, sdt } ){
   const match = useRouteMatch();
   console.log(match);
   
@@ -13,7 +13,7 @@ function Home(){
       <h1 id="name">Takashi Honzawa</h1>
       <p id="self-description">Architectural Designer turned Creative Developer/Product Designer.</p>
       <p>I am now finishing my Master of Architecture degree at Columbia University and Software Engineering program at Flatiron School.</p>
-      <SelectedWork />
+      <SelectedWork web={web} sdt={sdt} />
     </div>
   )
 }

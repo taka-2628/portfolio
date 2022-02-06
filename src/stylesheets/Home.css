@@ -21,3 +21,33 @@
 #home p {
   font-size: 20px;
 }
+
+/* Selected Works*/
+.grid-container {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border: solid 1px #000000;
+  border-radius: 10px;
+}
+
+.grid-item img {
+  width: 100%;
+  object-fit: contain;
+  aspect-ratio: 1 / 1;
+}
+
+#selected-works .title {
+  color: #000000;
+  font-size: 20pt;
+}
+#selected-works .project-detail {
+  font-size: 12pt;
+}

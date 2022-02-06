@@ -37,7 +37,7 @@ function App() {
             <WebHardCoded />
           </Route>
           <Route exact path="/">
-            <Home/>
+            <Home web={web} sdt={sdt}/>
           </Route>
         </Switch>
         {/*<Footer />*/}
