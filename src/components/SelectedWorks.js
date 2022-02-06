@@ -12,9 +12,6 @@ function SelectedWork( { web, sdt } ){
           <a href={project.url} target="_blank" rel="noopener noreferrer" className="linkgg">
             <h2 className="title">{project.title}</h2>
           </a>
-          <p className="project-detail">
-            {project.school} | {project.year} 
-          </p>
         </div>
       </div>
     )
@@ -29,9 +26,6 @@ function SelectedWork( { web, sdt } ){
           <Link to={`space-design-tech/${project.id}`} className="linkgg">
             <h2 className="title">{project.title}</h2>
           </Link>
-          <p className="project-detail">
-            {project.detail.school} | {project.detail.year} 
-          </p>
         </div>
       </div>
     )

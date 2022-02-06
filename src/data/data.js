@@ -117,6 +117,7 @@ const sdt = [
       image5: mgiHTDN5Gadget,
       image6: mgiHTDN6Gadget,
     },
+    tags: [ web ],
     selected: true
   },
   {
@@ -143,6 +144,7 @@ const sdt = [
       image6: mgiSharedKitchen6Test,
       image7: mgiSharedKitchen7Test,
     },
+    tags: [ web ],
     selected: true
   },
   {
