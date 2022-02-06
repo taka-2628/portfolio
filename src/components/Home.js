@@ -1,5 +1,7 @@
 import React from "react";
 import { useRouteMatch } from "react-router-dom";
+import "../stylesheets/Home.css";
+
 import SelectedWork from "./SelectedWorks";
 
 function Home(){
@@ -8,8 +10,10 @@ function Home(){
   
   return (
     <div id="home">
-      <h1>I'm Takashi Honzawa</h1>
-      <p>He is a creative developer, product designer, software engineer, experience designer, </p>
+      <h1>Takashi Honzawa</h1>
+      <p id="self-description">Architectural Designer turned Creative Developer/Product Designer.</p>
+      <p>I am now finishing my Master of Architecture degree at Columbia University and Software Engineering program at Flatiron School.</p>
+      <p>Skilled at a few things: designing both product and experience, animating, prototyping and coding.</p>
       <SelectedWork />
     </div>
   )

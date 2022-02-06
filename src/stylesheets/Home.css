@@ -1,0 +1,15 @@
+#home {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#home h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+#self-description {
+  font-size: 20px;
+  margin-top: 0px;
+}
