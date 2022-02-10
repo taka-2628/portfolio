@@ -38,7 +38,6 @@
   margin-right: 20px;
 }
 #tags span:hover {
-  margin-right: 20px;
   text-decoration: underline;
 }
 
@@ -94,6 +93,9 @@
   object-fit: contain;
   aspect-ratio: 1 / 1;
 }
+.work-description-selected {
+  text-align: left;
+}
 
 .linkgg:link {
   color: #000000;
@@ -112,6 +114,7 @@
   color: #000000;
   font-size: 20pt;
 }
-#selected-works .project-detail {
-  font-size: 12pt;
+#selected-works .tag {
+  font-size: 14px;
+  margin: 0 10px 0 0;
 }

@@ -98,7 +98,6 @@ svg {
 
 .st0{
   fill:none;
-  
   stroke-width:1.5;
   stroke-miterlimit:10;
 }
@@ -114,9 +113,10 @@ svg {
   stroke:#ffffff;
 } 
 
+/* FOOTER */
 #footer {
   margin-top: 120px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   text-align: center;
 }
 #break {

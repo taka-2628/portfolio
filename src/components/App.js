@@ -7,7 +7,7 @@ import Home from './Home';
 import Web from './Web';
 import SpaceDesignTech from './SpaceDesignTech';
 import GSAPPPortfolio from './GSAPPPortfolio';
-import Footer from './Footer';
+
 
 import { BackgroundContext } from './context/background';
 import { web, sdt } from '../data/data';
