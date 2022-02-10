@@ -4,25 +4,32 @@
   text-align: left;
 }
 
+#about-myself {
+  width: calc(50% - 10px);
+  display: inline-block;
+  margin-right: 10px;
+}
 #name {
   font-size: 60px;
   margin-bottom: 10px;
 }
-
 #self-description {
-  font-size: 20px;
+  font-size: 35px;
   margin-top: 0px;
 }
 
-#selected-works {
-  margin-top: 60px;
+#profile-image-wrapper {
+  width: calc(50% - 10px);
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
+}
+#profile-image-wrapper img {
+  width: 70%;
+  margin: auto;
 }
 
-#home p {
-  font-size: 20px;
-}
-
-/* Tags*/
+/* Tags */
 #tags {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -37,6 +44,7 @@
 
 /* Selected Works*/
 #selected-works {
+  margin-top: 60px;
   padding-bottom: 40px;
 }
 
