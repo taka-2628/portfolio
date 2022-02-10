@@ -2,6 +2,8 @@ import React from "react";
 import { useRouteMatch } from "react-router-dom";
 import "../stylesheets/Web.css";
 
+import Footer from './Footer';
+
 import mediumLogo from "../assets/medium-logo_white.png";
 import githubLogo from "../assets/github-logo_white.png";
 
@@ -49,6 +51,7 @@ function Web( {data} ){
   return (
     <div id="web">
       {webProjects}
+      <Footer />
     </div>
   )
 }

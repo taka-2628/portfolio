@@ -10,6 +10,8 @@ import IlluminationSchool from "./SDTProjects/IlluminationSchool";
 import CourtyardDialogue from "./SDTProjects/CourtyardDialogue";
 import Continuum from "./SDTProjects/Continuum";
 
+import Footer from './Footer';
+
 function SpaceDesignTech( {data} ){
   const match = useRouteMatch();
   console.log(match);
@@ -38,6 +40,7 @@ function SpaceDesignTech( {data} ){
           <Route exact path={`${match.url}/continuum`}>
             <Continuum data={data}/>
           </Route>
+          <Footer />
     </div>
   )
 }
