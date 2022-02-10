@@ -25,7 +25,7 @@
   margin-left: 10px;
 }
 #profile-image-wrapper img {
-  width: 70%;
+  width: 55%;
   margin: auto;
 }
 
@@ -43,8 +43,11 @@
 
 /* Selected Works*/
 #selected-works {
-  margin-top: 60px;
+  margin-top: 100px;
   padding-bottom: 40px;
+}
+#selected-works h1{
+  font-size: 35px;
 }
 
 @media (min-width: 480px) {
@@ -90,7 +93,7 @@
 
 .grid-item img {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   aspect-ratio: 1 / 1;
 }
 .work-description-selected {
