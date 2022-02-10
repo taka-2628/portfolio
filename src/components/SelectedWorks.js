@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function SelectedWork( { web, sdt } ){
-  const webSelected = web.filter((project) => {
-    return project.selected;
-  }).map((project) => {
+  const [ filterBy, setFilterBy ] = useState("all");
+
+  const webSelected = web.filter((project) => project.selected);
+  const webFiltered = (filterBy === "all") ? webSelected : webSelected.filter((project) => project.tags.includes(filterBy));
+  const webToDisplay = webFiltered.map((project) => {
     return (
       <div key={project.title} className="grid-item">
         <a href={project.url} target="_blank" rel="noopener noreferrer">
@@ -20,9 +22,9 @@ function SelectedWork( { web, sdt } ){
     )
   })
 
-  const sdtSelected = sdt.filter((project) => {
-    return project.selected;
-  }).map((project) => {
+  const sdtSelected = sdt.filter((project) => project.selected);
+  const sdtFiltered = (filterBy === "all") ? sdtSelected : sdtSelected.filter((project) => project.tags.includes(filterBy));
+  const sdtToDisplay = sdtFiltered.map((project) => {
     return (
       <div key={project.id} className="grid-item">
         <Link to={`space-design-tech/${project.id}`}>
@@ -42,16 +44,17 @@ function SelectedWork( { web, sdt } ){
     <div id="selected-works">
       <h1>Selected Works</h1>
       <div id="tags">
-        <span>#web</span>
-        <span>#IOT</span>
-        <span>#data visualization</span>
-        <span>#spatial tech</span>
-        <span>#experience design</span>
-        <span>#architecture</span>
+        <span style={(filterBy === "all") ? {textDecoration: "underline"} : null} onClick={() => setFilterBy("all")}>-ALL</span>
+        <span style={(filterBy === "web") ? {textDecoration: "underline"} : null} onClick={() => setFilterBy("web")}>#web</span>
+        <span style={(filterBy === "IOT") ? {textDecoration: "underline"} : null} onClick={() => setFilterBy("IOT")}>#IOT</span>
+        <span style={(filterBy === "data visualization") ? {textDecoration: "underline"} : null}onClick={() => setFilterBy("data visualization")}>#data visualization</span>
+        <span style={(filterBy === "spatial tech") ? {textDecoration: "underline"} : null} onClick={() => setFilterBy("spatial tech")}>#spatial tech</span>
+        <span style={(filterBy === "experience design") ? {textDecoration: "underline"} : null} onClick={() => setFilterBy("experience design")}>#experience design</span>
+        <span style={(filterBy === "architecture") ? {textDecoration: "underline"} : null} onClick={() => setFilterBy("architecture")}>#architecture</span>
       </div>
       <div className="grid-container">
-        {webSelected}
-        {sdtSelected}
+        {webToDisplay}
+        {sdtToDisplay}
       </div>
     </div>
   )
