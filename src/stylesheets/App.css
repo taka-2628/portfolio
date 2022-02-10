@@ -55,14 +55,12 @@ body:after{
 
 .black-border {
   position: relative;
-  height: calc(100vh - 40px);
   width: 100%;
   text-align: center;
 }
 
 .black {
   position: relative;
-  height: calc(100vh - 40px);
   width: 100%;
   text-align: center;
   background-color: black;
@@ -115,17 +113,7 @@ svg {
 
 /* FOOTER */
 #footer {
-  margin-top: 120px;
+  margin-top: 100px;
   padding-bottom: 60px;
   text-align: center;
-}
-#break {
-  width: 30%;
-  margin: 0 auto;
-}
-#break hr {
-  border: none;
-    color: #bbb;
-    background-color: #bbb;
-    height: 1px;
 }

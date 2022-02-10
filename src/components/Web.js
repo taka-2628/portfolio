@@ -49,10 +49,13 @@ function Web( {data} ){
   })
 
   return (
-    <div id="web">
-      {webProjects}
-      <Footer />
-    </div>
+      <div id="web">
+        <div id="web-project-list">
+          {webProjects}
+        </div>
+        <Footer />
+      </div>
+      
   )
 }
 

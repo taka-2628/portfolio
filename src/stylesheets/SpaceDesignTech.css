@@ -1,4 +1,9 @@
 /* SDT PROJECT LIST*/
+
+#space-design-tech {
+  padding-top: 40.2px;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
