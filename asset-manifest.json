@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6d0eea85.css",
-    "main.js": "/portfolio/static/js/main.59d6d22a.js",
+    "main.css": "/portfolio/static/css/main.c8c90c80.css",
+    "main.js": "/portfolio/static/js/main.53b1e503.js",
     "static/media/mgi-shared-kitchen-01.mp4": "/portfolio/static/media/mgi-shared-kitchen-01.b8ffafeb758b3db2ef06.mp4",
     "static/media/mgi-shared-kitchen-07.gif": "/portfolio/static/media/mgi-shared-kitchen-07.e349b6dd60596e0db604.gif",
     "static/media/mgi-how-to-do-nothing-01.gif": "/portfolio/static/media/mgi-how-to-do-nothing-01.bf26bb785e82f9501f5f.gif",
@@ -62,11 +62,11 @@
     "static/media/github-logo_white.png": "/portfolio/static/media/github-logo_white.ec139bc4178082e22b22.png",
     "static/media/mgi-how-to-do-nothing-06.jpg": "/portfolio/static/media/mgi-how-to-do-nothing-06.becafe88d303a29aed39.jpg",
     "index.html": "/portfolio/index.html",
-    "main.6d0eea85.css.map": "/portfolio/static/css/main.6d0eea85.css.map",
-    "main.59d6d22a.js.map": "/portfolio/static/js/main.59d6d22a.js.map"
+    "main.c8c90c80.css.map": "/portfolio/static/css/main.c8c90c80.css.map",
+    "main.53b1e503.js.map": "/portfolio/static/js/main.53b1e503.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d0eea85.css",
-    "static/js/main.59d6d22a.js"
+    "static/css/main.c8c90c80.css",
+    "static/js/main.53b1e503.js"
   ]
 }
