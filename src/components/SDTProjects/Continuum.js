@@ -1,4 +1,5 @@
 import React from "react";
+import Comments from "../Comments";
 
 function Continuum({data}){
   const project = data.find(({ id }) => (id === "continuum"));
@@ -33,6 +34,7 @@ function Continuum({data}){
         <img className="urban-campsite-img" src={project.images.image11}></img>
         <img className="urban-campsite-img" src={project.images.image12}></img>
       </div>
+      <Comments project={"continuum"}/>
     </div>
   )
 }

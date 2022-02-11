@@ -1,4 +1,5 @@
 import React from "react";
+import Comments from "../Comments";
 
 function CourtyardDialogue({data}){
   const project = data.find(({ id }) => (id === "courtyard-dialogue"));
@@ -33,6 +34,7 @@ function CourtyardDialogue({data}){
         <img className="urban-campsite-img" src={project.images.image11}></img>
         <img className="urban-campsite-img" src={project.images.image12}></img>
       </div>
+      <Comments project={"courtyard dialogue"}/>
     </div>
   )
 }

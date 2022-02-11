@@ -1,4 +1,5 @@
 import React from "react";
+import Comments from "../Comments";
 
 function HowToDoNothing({data}){
   const project = data.find(({ id }) => (id === "how-to-do-nothing"));
@@ -58,7 +59,7 @@ function HowToDoNothing({data}){
           Change of the interior environment triggered by IFTTT microservice enforces breaks from computer/work, gives you a moment to loosen up and reflect on things. 
         </p>
       </div>
-      
+      <Comments project={"how to do nothing"}/>
     </div>
   )
 }

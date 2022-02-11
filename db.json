@@ -1,14 +1,9 @@
 {
-  "thumbnails": [
+  "comments": [
     {
       "id": 1,
-      "title": "Hello",
-      "image": "/portfolio/static/media/a-IV-01.143c5a8df7d85d1e9568.jpg" 
-    },
-    {
-      "id": 2,
-      "title": "Hola",
-      "image": "/portfolio/static/media/a-IV-01.143c5a8df7d85d1e9568.jpg"
+      "project": "how to do nothing",
+      "comment": "Nice!"
     }
   ]
 }

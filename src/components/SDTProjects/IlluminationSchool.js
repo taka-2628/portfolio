@@ -1,4 +1,5 @@
 import React from "react";
+import Comments from "../Comments";
 
 function IlluminationSchool({data}){
   const project = data.find(({ id }) => (id === "illumination-school"));
@@ -25,6 +26,7 @@ function IlluminationSchool({data}){
         <img className="urban-campsite-img" src={project.images.image3}></img>
         <img className="urban-campsite-img" src={project.images.image4}></img>
       </div>
+      <Comments project={"illumination school"}/>
     </div>
   )
 }

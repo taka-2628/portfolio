@@ -40,7 +40,6 @@ function App() {
             <Home web={web} sdt={sdt}/>
           </Route>
         </Switch>
-        {/*<Footer />*/}
       </div>
     </>
   );
