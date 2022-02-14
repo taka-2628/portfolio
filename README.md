@@ -7,3 +7,5 @@ You can visit the website [here](https://takashi-honzawa.com/).
 #### Home Page
 <img src="website-gif/01_comp.gif" width="900">
 
+#### Project Page
+<img src="website-gif/03_comp.gif" width="900">
