@@ -2,7 +2,7 @@ import React from "react";
 import { useRouteMatch } from "react-router-dom";
 import "../stylesheets/Home.css";
 
-import SelectedWork from "./SelectedWorks";
+import SelectedWorks from "./SelectedWorks";
 import Footer from './Footer';
 import profileImage from "../assets/000062150015_rect2.jpg";
 
@@ -25,7 +25,7 @@ function Home( { web, sdt } ){
         </div>
       </div>
 
-      <SelectedWork web={web} sdt={sdt} />
+      <SelectedWorks web={web} sdt={sdt} />
       <Footer />
     </div>
   )
