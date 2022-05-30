@@ -3,6 +3,7 @@ import bundleGif from "../assets/web/01-BUNDLE.gif";
 import actorsGif from "../assets/web/02-52711-Actors.gif";
 import baboonGif from "../assets/web/03-Baboon-Interactive-Model.gif";
 import baboonThumbnail from "../assets/web/03-Baboon-Interactive-thumbnail.gif";
+import petroleumscapeGif from "../assets/web/04-American-Petroleumscape.gif";
 
 // space-design-tech project assets
 import aIVThumbnail from "../assets/space-design-tech/a-IV-00.jpg";
@@ -74,8 +75,8 @@ const web = [
     image: baboonGif,
     thumbnail: baboonThumbnail,
     description: "CAPE TOWN BABOON INTERACTIVE is ",
-    school: "Flatiron School",
-    year: 2021,
+    school: "Columbia University",
+    year: 2022,
     url: "https://taka-2628.github.io/NoMoreMonkeyBusiness",
     github: "https://github.com/taka-2628/NoMoreMonkeyBusiness",
     medium: "",
@@ -86,15 +87,15 @@ const web = [
   },
   {
     id: 2,
-    title: "CAPE TOWN BABOON INTERACTIVE",
+    title: "American Petroleumscape",
     subtitle: "Interactive, topographic model of Cape Town with animated baboons simulating the bahaviors of the baboon troops in the city.",
-    image: baboonGif,
-    thumbnail: baboonThumbnail,
+    image: petroleumscapeGif,
+    thumbnail: petroleumscapeGif,
     description: "CAPE TOWN BABOON INTERACTIVE is ",
-    school: "Flatiron School",
-    year: 2021,
-    url: "https://taka-2628.github.io/NoMoreMonkeyBusiness",
-    github: "https://github.com/taka-2628/NoMoreMonkeyBusiness",
+    school: "Columbia University",
+    year: 2022,
+    url: "https://taka-2628.github.io/coding-for-spatial-practices/project-03/",
+    github: "https://github.com/taka-2628/coding-for-spatial-practices/project-03/",
     medium: "",
     collaborator: null,
     collaborator_url: "",
