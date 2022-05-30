@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.c8c90c80.css",
-    "main.js": "/static/js/main.958f766a.js",
+    "main.js": "/static/js/main.2340277b.js",
     "static/media/mgi-shared-kitchen-01.mp4": "/static/media/mgi-shared-kitchen-01.b8ffafeb758b3db2ef06.mp4",
+    "static/media/03-Baboon-Interactive-Model.gif": "/static/media/03-Baboon-Interactive-Model.9194ad4f1ee7026b86ae.gif",
     "static/media/mgi-shared-kitchen-07.gif": "/static/media/mgi-shared-kitchen-07.e349b6dd60596e0db604.gif",
     "static/media/mgi-how-to-do-nothing-01.gif": "/static/media/mgi-how-to-do-nothing-01.bf26bb785e82f9501f5f.gif",
+    "static/media/03-Baboon-Interactive-thumbnail.gif": "/static/media/03-Baboon-Interactive-thumbnail.e9302ddbea14457499fa.gif",
     "static/media/mgi-shared-kitchen-06.gif": "/static/media/mgi-shared-kitchen-06.90e62820c8710cee9fba.gif",
     "static/media/mgi-how-to-do-nothing-00.gif": "/static/media/mgi-how-to-do-nothing-00.f6c7490f6ff90662f0e4.gif",
     "static/media/c-III-02.jpg": "/static/media/c-III-02.77032ea8a3336fa1a52f.jpg",
@@ -63,10 +65,10 @@
     "static/media/mgi-how-to-do-nothing-06.jpg": "/static/media/mgi-how-to-do-nothing-06.becafe88d303a29aed39.jpg",
     "index.html": "/index.html",
     "main.c8c90c80.css.map": "/static/css/main.c8c90c80.css.map",
-    "main.958f766a.js.map": "/static/js/main.958f766a.js.map"
+    "main.2340277b.js.map": "/static/js/main.2340277b.js.map"
   },
   "entrypoints": [
     "static/css/main.c8c90c80.css",
-    "static/js/main.958f766a.js"
+    "static/js/main.2340277b.js"
   ]
 }
