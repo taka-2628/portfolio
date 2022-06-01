@@ -71,10 +71,10 @@ const web = [
   {
     id: 1,
     title: "CAPE TOWN BABOON INTERACTIVE",
-    subtitle: "Interactive, topographic model of Cape Town with animated baboons simulating the bahaviors of the baboon troops in the city.",
+    subtitle: "Animated Interactive 3D Web App built with Three.js and Blender",
     image: baboonGif,
     thumbnail: baboonThumbnail,
-    description: "CAPE TOWN BABOON INTERACTIVE is ",
+    description: "Interactive topographic model of Cape Town with animated baboons simulating the bahaviors of the baboon troops in the city. A predictive model of baboon troops is created based on behavioral algorithms (patch selection model), which becomes the basis for the interactive model.", 
     school: "Columbia University",
     year: 2022,
     url: "https://taka-2628.github.io/NoMoreMonkeyBusiness",
