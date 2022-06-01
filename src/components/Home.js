@@ -17,7 +17,7 @@ function Home( { web, sdt } ){
           <h1 id="name">Takashi Honzawa</h1>
           <p id="self-description"><strong>Architectural Designer</strong> turned <strong>Creative Developer/Product Designer</strong>.</p>
           <div>
-            <p>I have experience in spatial, interactive, and visual designs and am skilled at front-end & back-end development. I am now finishing my Master of Architecture degree at Columbia University and Software Engineering program at Flatiron School.</p>
+            <p>I have experience in spatial, interactive, and visual designs and am skilled at front-end & back-end development. Recently graduated from Columbia University and now finishing Software Engineering program at Flatiron School.</p>
           </div>
         </div>
         <div id="profile-image-wrapper">
