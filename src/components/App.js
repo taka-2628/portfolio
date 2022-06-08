@@ -6,7 +6,6 @@ import Header from './Header';
 import Home from './Home';
 import Web from './Web';
 import SpaceDesignTech from './SpaceDesignTech';
-import GSAPPPortfolio from './GSAPPPortfolio';
 
 
 import { BackgroundContext } from './context/background';
@@ -24,13 +23,13 @@ function App() {
       <div className= {background}>
         <Header />
         <Switch>
-          <Route exact path="/#/web">
+          <Route exact path="/web">
             <Web data={web} />
           </Route>
           <Route path="/space-design-tech">
             <SpaceDesignTech data={sdt} />
           </Route>
-          <Route exact path="/#/web2">
+          <Route exact path="/web2">
             <WebHardCoded />
           </Route>
           <Route exact path="/">
