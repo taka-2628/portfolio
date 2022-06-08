@@ -36,7 +36,7 @@ function App() {
           <Route exact path="/web2">
             <WebHardCoded />
           </Route>
-          <Route exact path="/">
+          <Route exact path="/#">
             <Home web={web} sdt={sdt}/>
           </Route>
         </Switch>
