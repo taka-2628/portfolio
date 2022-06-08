@@ -24,19 +24,16 @@ function App() {
       <div className= {background}>
         <Header />
         <Switch>
-          <Route exact path="/web">
+          <Route exact path="/#/web">
             <Web data={web} />
           </Route>
           <Route path="/space-design-tech">
             <SpaceDesignTech data={sdt} />
           </Route>
-          <Route exact path="/gsapp-portfolio">
-            <GSAPPPortfolio/>
-          </Route>
-          <Route exact path="/web2">
+          <Route exact path="/#/web2">
             <WebHardCoded />
           </Route>
-          <Route exact path="/#">
+          <Route exact path="/">
             <Home web={web} sdt={sdt}/>
           </Route>
         </Switch>
