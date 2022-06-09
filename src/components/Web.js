@@ -15,7 +15,8 @@ function Web( {data} ){
   /* make sure WEB component has BLACK background on refresh */
   const { setBackground } = useContext(BackgroundContext);
   useEffect(() => {
-    if (performance.navigation.type === 1) {
+    const navigationType = performance.getEntriesByType("navigation")[0].type;
+    if (navigationType === "reload") {
       setBackground('black');
     } else {
       console.log("This page is not reloaded");
