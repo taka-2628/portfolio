@@ -70,7 +70,7 @@ import mgiSharedKitchen7Test from "../assets/space-design-tech/mgi-shared-kitche
 const web = [
   {
     id: 1,
-    title: "CAPE TOWN BABOON INTERACTIVE",
+    title: "CAPE TOWN BABOON INTERACTIVE MODEL",
     subtitle: "Animated Interactive 3D Web App built with Three.js and Blender",
     image: baboonGif,
     thumbnail: baboonThumbnail,
