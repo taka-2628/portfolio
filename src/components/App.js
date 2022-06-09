@@ -7,24 +7,15 @@ import Home from './Home';
 import Web from './Web';
 import SpaceDesignTech from './SpaceDesignTech';
 
-
 import { BackgroundContext } from './context/background';
 import { web, sdt } from '../data/data';
 
-import WebHardCoded from './WebHardCoded';
-
-
 function App() {
-  const { background, setBackground } = useContext(BackgroundContext);
-  
-  useEffect(() => {
-    setBackground('black-border')
-  }, [])
-
+  const { background } = useContext(BackgroundContext);
 
   return (
     <>
-      <div className={background === "black-border" ? "border" : null}></div>
+      <div className={background === "white" ? "border" : null}></div>
       <div className={background}>
         <Header />
         <Switch>
