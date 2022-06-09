@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { Route, Switch } from "react-router-dom";
 import "../stylesheets/App.css";
 
@@ -15,12 +15,17 @@ import WebHardCoded from './WebHardCoded';
 
 
 function App() {
-  const { background } = useContext(BackgroundContext);
+  const { background, setBackground } = useContext(BackgroundContext);
+  
+  useEffect(() => {
+    setBackground('black-border')
+  }, [])
+
 
   return (
     <>
-      <div className={background == "black-border" ? "border" : null}></div>
-      <div className= {background}>
+      <div className={background === "black-border" ? "border" : null}></div>
+      <div className={background}>
         <Header />
         <Switch>
           <Route exact path="/web">
@@ -28,9 +33,6 @@ function App() {
           </Route>
           <Route path="/space-design-tech">
             <SpaceDesignTech data={sdt} />
-          </Route>
-          <Route exact path="/web2">
-            <WebHardCoded />
           </Route>
           <Route exact path="/">
             <Home web={web} sdt={sdt}/>

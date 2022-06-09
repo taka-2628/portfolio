@@ -59,7 +59,6 @@ function HowToDoNothing({data}){
           Change of the interior environment triggered by IFTTT microservice enforces breaks from computer/work, gives you a moment to loosen up and reflect on things. 
         </p>
       </div>
-      <Comments project={"how to do nothing"}/>
     </div>
   )
 }

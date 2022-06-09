@@ -34,7 +34,6 @@ function Continuum({data}){
         <img className="urban-campsite-img" src={project.images.image11}></img>
         <img className="urban-campsite-img" src={project.images.image12}></img>
       </div>
-      <Comments project={"continuum"}/>
     </div>
   )
 }

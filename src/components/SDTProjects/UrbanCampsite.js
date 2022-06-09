@@ -30,7 +30,6 @@ function UrbanCampsite({data}){
         <img className="urban-campsite-img" src={project.images.image7}></img>
         <img className="urban-campsite-img" src={project.images.image8}></img>
       </div>
-      <Comments project={"urban campsite"}/>
     </div>
   )
 }

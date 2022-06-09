@@ -74,7 +74,6 @@ function SharedKitchen({data}){
           While the exact motions and timing may not be synchronous between the two people, it would allow them to feel the presence of each other and understanding of their movement and activity. 
         </p>
       </div>
-      <Comments project={"shared kitchen"}/>
     </div>
   )
 }
