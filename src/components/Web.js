@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useEffect, useContext} from "react";
 import { useRouteMatch } from "react-router-dom";
+import { BackgroundContext } from './context/background';
 import "../stylesheets/Web.css";
 
 import Footer from './Footer';
@@ -10,6 +11,16 @@ import githubLogo from "../assets/github-logo_white.png";
 function Web( {data} ){
   const match = useRouteMatch();
   console.log(match);
+
+  /* make sure WEB component has BLACK background on refresh */
+  const { setBackground } = useContext(BackgroundContext);
+  useEffect(() => {
+    if (performance.navigation.type === 1) {
+      setBackground('black');
+    } else {
+      console.log("This page is not reloaded");
+    }
+  }, []);
 
   const webProjects = data.map((project) => {
     return (
