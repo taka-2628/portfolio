@@ -1,7 +1,7 @@
 import React from "react";
 
-function IlluminationSchool({data}){
-  const project = data.find(({ id }) => (id === "illumination-school"));
+function ExtractionReversed({data}){
+  const project = data.find(({ id }) => (id === "extraction-reversed"));
 
   return (
     <div className="sdt-project-container">
@@ -24,9 +24,15 @@ function IlluminationSchool({data}){
         <img className="urban-campsite-img" src={project.images.image2}></img>
         <img className="urban-campsite-img" src={project.images.image3}></img>
         <img className="urban-campsite-img" src={project.images.image4}></img>
+        <img className="urban-campsite-img" src={project.images.image5}></img>
+        <img className="urban-campsite-img" src={project.images.image6}></img>
+        <img className="urban-campsite-img" src={project.images.image7}></img>
+        <img className="urban-campsite-img" src={project.images.image8}></img>
+        <img className="urban-campsite-img" src={project.images.image9}></img>
+        <img className="urban-campsite-img" src={project.images.image10}></img>
       </div>
     </div>
   )
 }
 
-export default IlluminationSchool;
+export default ExtractionReversed;

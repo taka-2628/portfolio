@@ -1,5 +1,4 @@
 import React from "react";
-import Comments from "../Comments";
 
 function HowToDoNothing({data}){
   const project = data.find(({ id }) => (id === "how-to-do-nothing"));

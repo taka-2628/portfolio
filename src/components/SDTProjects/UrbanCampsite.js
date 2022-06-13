@@ -1,5 +1,4 @@
 import React from "react";
-import Comments from "../Comments";
 
 function UrbanCampsite({data}){
   const project = data.find(({ id }) => (id === "urban-campsite"));

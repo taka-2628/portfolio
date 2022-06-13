@@ -1,7 +1,7 @@
 import React from "react";
 
-function IlluminationSchool({data}){
-  const project = data.find(({ id }) => (id === "illumination-school"));
+function DesertOasis({data}){
+  const project = data.find(({ id }) => (id === "desert-oasis"));
 
   return (
     <div className="sdt-project-container">
@@ -23,10 +23,9 @@ function IlluminationSchool({data}){
         <img className="urban-campsite-img" src={project.images.cover_image}></img>
         <img className="urban-campsite-img" src={project.images.image2}></img>
         <img className="urban-campsite-img" src={project.images.image3}></img>
-        <img className="urban-campsite-img" src={project.images.image4}></img>
       </div>
     </div>
   )
 }
 
-export default IlluminationSchool;
+export default DesertOasis;

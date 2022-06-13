@@ -9,6 +9,9 @@ import UrbanCampsite from "./SDTProjects/UrbanCampsite";
 import IlluminationSchool from "./SDTProjects/IlluminationSchool";
 import CourtyardDialogue from "./SDTProjects/CourtyardDialogue";
 import Continuum from "./SDTProjects/Continuum";
+import BambooFuturism from "./SDTProjects/BambooFuturism";
+import ExtractionReversed from "./SDTProjects/ExtractionReversed";
+import DesertOasis from "./SDTProjects/DesertOasis";
 
 import Footer from './Footer';
 
@@ -39,6 +42,15 @@ function SpaceDesignTech( {data} ){
           </Route>
           <Route exact path={`${match.url}/continuum`}>
             <Continuum data={data}/>
+          </Route>
+          <Route exact path={`${match.url}/bamboo-futurism`}>
+            <BambooFuturism data={data}/>
+          </Route>
+          <Route exact path={`${match.url}/extraction-reversed`}>
+            <ExtractionReversed data={data}/>
+          </Route>
+          <Route exact path={`${match.url}/desert-oasis`}>
+            <DesertOasis data={data}/>
           </Route>
           <Footer />
     </div>
