@@ -20,6 +20,22 @@ import aIV10Collage from "../assets/space-design-tech/a-IV-10.jpg";
 import aIV11Collage from "../assets/space-design-tech/a-IV-11.jpg";
 import aIV12Collage from "../assets/space-design-tech/a-IV-12.jpg";
 
+import aVThumbnail from "../assets/space-design-tech/a-V-00.gif";
+import aV1Image from "../assets/space-design-tech/a-V-01.jpg";
+import aV2Image from "../assets/space-design-tech/a-V-02.jpg";
+
+import aVIThumbnail from "../assets/space-design-tech/a-VI-00.jpg";
+import aVICover from "../assets/space-design-tech/a-VI-01.jpg";
+import aVI2Collage from "../assets/space-design-tech/a-VI-02.jpg";
+import aVI3Collage from "../assets/space-design-tech/a-VI-03.jpg";
+import aVI4Collage from "../assets/space-design-tech/a-VI-04.jpg";
+import aVI5Timeline from "../assets/space-design-tech/a-VI-05.jpg";
+import aVI6IsoRemediation from "../assets/space-design-tech/a-VI-06.jpg";
+import aVI7IsoBiochar from "../assets/space-design-tech/a-VI-07.jpg";
+import aVI8Concept1 from "../assets/space-design-tech/a-VI-08.gif";
+import aVI9Concept2 from "../assets/space-design-tech/a-VI-09.gif";
+import aVI10Concept3 from "../assets/space-design-tech/a-VI-10.gif";
+
 import cIThumbnail from "../assets/space-design-tech/c-I-00.jpg";
 import cICover from "../assets/space-design-tech/c-I-01.jpg";
 import cI2Axon from "../assets/space-design-tech/c-I-02.jpg";
@@ -67,6 +83,11 @@ import mgiSharedKitchen5Diagram from "../assets/space-design-tech/mgi-shared-kit
 import mgiSharedKitchen6Test from "../assets/space-design-tech/mgi-shared-kitchen-06.gif";
 import mgiSharedKitchen7Test from "../assets/space-design-tech/mgi-shared-kitchen-07.gif";
 
+import turThumbnail from "../assets/space-design-tech/ur-00-thumbnail.gif";
+import turRendering1 from "../assets/space-design-tech/ur-01.jpg";
+import turRendering2 from "../assets/space-design-tech/ur-02.jpg";
+import turRendering3 from "../assets/space-design-tech/ur-03.jpg";
+
 const web = [
   {
     id: 1,
@@ -74,7 +95,7 @@ const web = [
     subtitle: "Animated Interactive 3D Web App built with Three.js and Blender",
     image: baboonGif,
     thumbnail: baboonThumbnail,
-    description: "Interactive topographic model of Cape Town with animated baboons simulating the bahaviors of the baboon troops in the city. A predictive model of baboon troops is created based on behavioral algorithms (patch selection model), which becomes the basis for the interactive model.", 
+    description: "Interactive topographic model of Cape Town with animated baboons simulating the behaviors of the baboon troops in the city. A predictive model of baboon troops is created based on behavioral algorithms (patch selection model), which becomes the basis for the interactive model.", 
     school: "Columbia University",
     year: 2022,
     url: "https://taka-2628.github.io/NoMoreMonkeyBusiness",
@@ -287,6 +308,74 @@ const sdt = [
       image10: aIV10Collage,
       image11: aIV11Collage,
       image12: aIV12Collage,
+    },
+    selected: false
+  },
+  {
+    id: "bamboo-futurism",
+    title: "Bamboo Futurism",
+    thumbnail: aVThumbnail,
+    detail: {
+      year: 2021,
+      school: "Columbia University",
+      class: "Futurecurrent",
+      critic: "Vanessa Keith"
+    },
+    collaborators: [
+      {name: "Jo Hee Lee,", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Jo%20Hee%20Lee"}
+    ],
+    images: {
+      cover_image: aIVCover,
+      image1: aV1Image,
+      image2: aV2Image
+    },
+    selected: false
+  },
+  {
+    id: "extraction-reversed",
+    title: "Extraction Reversed",
+    thumbnail: aVIThumbnail,
+    detail: {
+      year: 2022,
+      school: "Columbia University",
+      class: "Risk",
+      critic: "David Benjamin"
+    },
+    collaborators: [
+      {name: "Dainel Kim,", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Daniel%20Kim"}
+    ],
+    images: {
+      cover_image: aVICover,
+      image2: aVI2Collage,
+      image3: aVI3Collage,
+      image4: aVI4Collage,
+      image5: aVI5Timeline,
+      image6: aVI6IsoRemediation,
+      image7: aVI7IsoBiochar,
+      image8: aVI8Concept1,
+      image9: aVI9Concept2,
+      image10: aVI10Concept3
+    },
+    selected: false
+  },
+  {
+    id: "desert-oasis",
+    title: "Desert Oasis",
+    thumbnail: turThumbnail,
+    detail: {
+      year: 2021,
+      school: "Columbia University",
+      class: "Techniques of the Ultrareal",
+      critic: "Joseph Brennan and Phillip Crupi"
+    },
+    collaborators: [
+      {name: "Ryan Alexander,", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Ryan%20Alexander"},
+      {name: "Yifei Yuan,", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Yifei%20Yuan"}
+    ],
+    images: {
+      cover_image: turRendering1,
+      image2: turRendering2,
+      image3: turRendering3,
     },
     selected: false
   }
