@@ -21,8 +21,9 @@ import aIV11Collage from "../assets/space-design-tech/a-IV-11.jpg";
 import aIV12Collage from "../assets/space-design-tech/a-IV-12.jpg";
 
 import aVThumbnail from "../assets/space-design-tech/a-V-00.gif";
-import aV1Image from "../assets/space-design-tech/a-V-01.jpg";
+import aVCover from "../assets/space-design-tech/a-V-01.gif";
 import aV2Image from "../assets/space-design-tech/a-V-02.jpg";
+import aV3Image from "../assets/space-design-tech/a-V-03.jpg";
 
 import aVIThumbnail from "../assets/space-design-tech/a-VI-00.jpg";
 import aVICover from "../assets/space-design-tech/a-VI-01.jpg";
@@ -325,9 +326,9 @@ const sdt = [
       {name: "Jo Hee Lee,", url: "https://www.arch.columbia.edu/student-work?student_name_contains=Jo%20Hee%20Lee"}
     ],
     images: {
-      cover_image: aIVCover,
-      image1: aV1Image,
-      image2: aV2Image
+      cover_image: aVCover,
+      image2: aV2Image,
+      image3: aV3Image
     },
     selected: false
   },

@@ -1,7 +1,7 @@
 import React from "react";
 
 function BambooFuturism({data}){
-  const project = data.find(({ id }) => (id === "extraction-reversed"));
+  const project = data.find(({ id }) => (id === "bamboo-futurism"));
 
   return (
     <div className="sdt-project-container">
