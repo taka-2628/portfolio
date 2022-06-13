@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.49f02d71.css",
-    "main.js": "/static/js/main.22455886.js",
+    "main.css": "/static/css/main.ef9edaf6.css",
+    "main.js": "/static/js/main.c763161f.js",
     "static/media/mgi-shared-kitchen-01.mp4": "/static/media/mgi-shared-kitchen-01.b8ffafeb758b3db2ef06.mp4",
     "static/media/04-American-Petroleumscape.gif": "/static/media/04-American-Petroleumscape.78f47302ef90df4d5ac5.gif",
     "static/media/03-Baboon-Interactive-Model.gif": "/static/media/03-Baboon-Interactive-Model.9194ad4f1ee7026b86ae.gif",
@@ -17,6 +17,7 @@
     "static/media/c-III-01.jpg": "/static/media/c-III-01.0c907be8aac3bcfc9021.jpg",
     "static/media/c-II-01.png": "/static/media/c-II-01.0ee1394a013bfb542222.png",
     "static/media/c-I-07.jpg": "/static/media/c-I-07.c8735623acdbfd7b3ef4.jpg",
+    "static/media/a-V-01.gif": "/static/media/a-V-01.3c1011c97e1052d37dfc.gif",
     "static/media/c-I-08.jpg": "/static/media/c-I-08.9a964e45ef01777ad338.jpg",
     "static/media/c-I-06.jpg": "/static/media/c-I-06.ff5d72995321c4a96ee4.jpg",
     "static/media/a-V-00.gif": "/static/media/a-V-00.23e511236e30b65b2df5.gif",
@@ -32,9 +33,9 @@
     "static/media/c-I-01.jpg": "/static/media/c-I-01.407368b39045f4ac0f9d.jpg",
     "static/media/ur-03.jpg": "/static/media/ur-03.e4e81c89c51e87107b0b.jpg",
     "static/media/a-VI-05.jpg": "/static/media/a-VI-05.5142b0b78f083b79f6a7.jpg",
-    "static/media/a-V-01.jpg": "/static/media/a-V-01.bbaed377b948d69f6b06.jpg",
+    "static/media/a-V-02.jpg": "/static/media/a-V-02.bbaed377b948d69f6b06.jpg",
     "static/media/a-VI-00.jpg": "/static/media/a-VI-00.5a3f127d30fcd6283014.jpg",
-    "static/media/a-V-02.jpg": "/static/media/a-V-02.912f84f6a61e6670068d.jpg",
+    "static/media/a-V-03.jpg": "/static/media/a-V-03.912f84f6a61e6670068d.jpg",
     "static/media/a-VI-02.jpg": "/static/media/a-VI-02.7316fb6512d4120fae2a.jpg",
     "static/media/a-VI-01.jpg": "/static/media/a-VI-01.143d9f1e21c06deeba33.jpg",
     "static/media/ur-00-thumbnail.gif": "/static/media/ur-00-thumbnail.000a4e2a484d869b8b5e.gif",
@@ -83,11 +84,11 @@
     "static/media/github-logo_white.png": "/static/media/github-logo_white.ec139bc4178082e22b22.png",
     "static/media/mgi-how-to-do-nothing-06.jpg": "/static/media/mgi-how-to-do-nothing-06.becafe88d303a29aed39.jpg",
     "index.html": "/index.html",
-    "main.49f02d71.css.map": "/static/css/main.49f02d71.css.map",
-    "main.22455886.js.map": "/static/js/main.22455886.js.map"
+    "main.ef9edaf6.css.map": "/static/css/main.ef9edaf6.css.map",
+    "main.c763161f.js.map": "/static/js/main.c763161f.js.map"
   },
   "entrypoints": [
-    "static/css/main.49f02d71.css",
-    "static/js/main.22455886.js"
+    "static/css/main.ef9edaf6.css",
+    "static/js/main.c763161f.js"
   ]
 }
