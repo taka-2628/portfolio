@@ -20,6 +20,9 @@ function DesertOasis({data}){
         }
       </div>
       <div className="sdt-project">
+        <p>
+          <em>Desert Oasis</em> is a rendering project that attemps to create ultrarealistic images of unreal scenes. It uses V-Ray for 3D Studio Max as the main engine for exploration and designing.
+        </p>
         <img className="urban-campsite-img" src={project.images.cover_image}></img>
         <img className="urban-campsite-img" src={project.images.image2}></img>
         <img className="urban-campsite-img" src={project.images.image3}></img>
