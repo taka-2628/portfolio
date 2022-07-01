@@ -139,7 +139,7 @@ const web = [
     medium: "https://takashi-honzawa.medium.com/building-a-sinatra-api-backend-with-active-record-3f2f28ec87c2",
     collaborator: null,
     collaborator_url: "",
-    selected: false,
+    selected: true,
     tags: ["web"]
   },
   {
@@ -224,7 +224,6 @@ const sdt = [
       image6: mgiSharedKitchen6Test,
       image7: mgiSharedKitchen7Test,
     },
-    tags: [ web ],
     selected: true,
     tags: ["IOT", "spatial tech", "experience design"]
   },
@@ -375,7 +374,8 @@ const sdt = [
       image9: aVI9Concept2,
       image10: aVI10Concept3
     },
-    selected: false
+    selected: true,
+    tags: [ "architecture", "experience design" ]
   },
   {
     id: "desert-oasis",
