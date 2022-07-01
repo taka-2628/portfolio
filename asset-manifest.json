@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.5ba70a13.css",
-    "main.js": "/static/js/main.00bfab03.js",
+    "main.js": "/static/js/main.ad7e020b.js",
     "static/media/mgi-shared-kitchen-01.mp4": "/static/media/mgi-shared-kitchen-01.b8ffafeb758b3db2ef06.mp4",
     "static/media/04-American-Petroleumscape.gif": "/static/media/04-American-Petroleumscape.78f47302ef90df4d5ac5.gif",
     "static/media/03-Baboon-Interactive-Model.gif": "/static/media/03-Baboon-Interactive-Model.9194ad4f1ee7026b86ae.gif",
+    "static/media/06-repo-new-media-art.gif": "/static/media/06-repo-new-media-art.ac176eafe69f610487ae.gif",
     "static/media/mgi-shared-kitchen-07.gif": "/static/media/mgi-shared-kitchen-07.e349b6dd60596e0db604.gif",
     "static/media/mgi-how-to-do-nothing-01.gif": "/static/media/mgi-how-to-do-nothing-01.bf26bb785e82f9501f5f.gif",
     "static/media/03-Baboon-Interactive-thumbnail.gif": "/static/media/03-Baboon-Interactive-thumbnail.e9302ddbea14457499fa.gif",
@@ -85,10 +86,10 @@
     "static/media/mgi-how-to-do-nothing-06.jpg": "/static/media/mgi-how-to-do-nothing-06.becafe88d303a29aed39.jpg",
     "index.html": "/index.html",
     "main.5ba70a13.css.map": "/static/css/main.5ba70a13.css.map",
-    "main.00bfab03.js.map": "/static/js/main.00bfab03.js.map"
+    "main.ad7e020b.js.map": "/static/js/main.ad7e020b.js.map"
   },
   "entrypoints": [
     "static/css/main.5ba70a13.css",
-    "static/js/main.00bfab03.js"
+    "static/js/main.ad7e020b.js"
   ]
 }
