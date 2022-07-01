@@ -4,6 +4,7 @@ import actorsGif from "../assets/web/02-52711-Actors.gif";
 import baboonGif from "../assets/web/03-Baboon-Interactive-Model.gif";
 import baboonThumbnail from "../assets/web/03-Baboon-Interactive-thumbnail.gif";
 import petroleumscapeGif from "../assets/web/04-American-Petroleumscape.gif";
+import repoNewMediaArt from "../assets/web/06-repo-new-media-art.gif";
 
 // space-design-tech project assets
 import aIVThumbnail from "../assets/space-design-tech/a-IV-00.jpg";
@@ -126,11 +127,28 @@ const web = [
   },
   {
     id: 3,
+    title: "Repository for New Media Art",
+    subtitle: "Single-page Frontend with React and Sinatra Backend API",
+    image: repoNewMediaArt,
+    thumbnail: repoNewMediaArt,
+    description: "Repository for New Media Art is a platform where creators, artists and technologiest showcase their projects, draw inspiration from each other and share their technical knowledge.",
+    school: "Flatiron School",
+    year: 2022,
+    url: "https://takashi-honzawa.medium.com/building-a-sinatra-api-backend-with-active-record-3f2f28ec87c2",
+    github: "https://github.com/taka-2628/repository-for-new-media-art",
+    medium: "https://takashi-honzawa.medium.com/building-a-sinatra-api-backend-with-active-record-3f2f28ec87c2",
+    collaborator: null,
+    collaborator_url: "",
+    selected: false,
+    tags: ["web"]
+  },
+  {
+    id: 4,
     title: "BUNDLE",
     subtitle: "Single-page Application with Vanilla JavaScript and JSON-server on Heroku",
     image: bundleGif,
     thumbnail: bundleGif,
-    description: " BUNDLE is a simple portfolio aggregator/tracker for stock and crypto investors. It fetches real-time price data from APIs and calculates the total value and unrealized gain/loss of a portfolio.",
+    description: "BUNDLE is a simple portfolio aggregator/tracker for stock and crypto investors. It fetches real-time price data from APIs and calculates the total value and unrealized gain/loss of a portfolio.",
     school: "Flatiron School",
     year: 2021,
     url: "https://taka-2628.github.io/BUNDLE/",
@@ -142,7 +160,7 @@ const web = [
     tags: ["web"]
   },
   {
-    id: 4,
+    id: 5,
     title: "LIFE AND DEATH OF 52,711 ACTORS",
     subtitle: "Data Visualization with D3.js and Mapbox API",
     image: actorsGif,
