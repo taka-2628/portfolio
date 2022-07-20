@@ -5,6 +5,7 @@ import baboonGif from "../assets/web/03-Baboon-Interactive-Model.gif";
 import baboonThumbnail from "../assets/web/03-Baboon-Interactive-thumbnail.gif";
 import petroleumscapeGif from "../assets/web/04-American-Petroleumscape.gif";
 import repoNewMediaArt from "../assets/web/06-repo-new-media-art.gif";
+import urbanOilscape from "../assets/web/07-LA-Urban-Oilscape.gif";
 
 // space-design-tech project assets
 import aIVThumbnail from "../assets/space-design-tech/a-IV-00.jpg";
@@ -112,9 +113,9 @@ const web = [
     id: 2,
     title: "Los Angeles | Urban Oilscape",
     subtitle: "Interactive Map built with MapBox GL JS",
-    image: petroleumscapeGif,
-    thumbnail: petroleumscapeGif,
-    description: "Los Angeles | Urban Oilscape is developed as a part of a design/research project, which investigates the environmental and health issues around oil refineries in Los Angeles county. The 1-mile raidus circles around oil wells shows the extent of the health issues surrounding the urban oil extraction in LA.",
+    image: urbanOilscape,
+    thumbnail: urbanOilscape,
+    description: "Los Angeles | Urban Oilscape is developed as a part of a design/research project, which investigates the environmental and health issues around oil refineries in Los Angeles county. The 1-mile raidus circles around oil wells shows the extent of the health issues around the urban oil extraction in LA.",
     school: "Columbia University",
     year: 2022,
     url: "https://taka-2628.github.io/los-angeles-urban-oilscape/",
