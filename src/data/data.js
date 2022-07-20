@@ -110,6 +110,23 @@ const web = [
   },
   {
     id: 2,
+    title: "Los Angeles | Urban Oilscape",
+    subtitle: "Interactive Map built with MapBox GL JS",
+    image: petroleumscapeGif,
+    thumbnail: petroleumscapeGif,
+    description: "Los Angeles | Urban Oilscape is developed as a part of a design/research project, which investigates the environmental and health issues around oil refineries in Los Angeles county. The 1-mile raidus circles around oil wells shows the extent of the health issues surrounding the urban oil extraction in LA.",
+    school: "Columbia University",
+    year: 2022,
+    url: "https://taka-2628.github.io/los-angeles-urban-oilscape/",
+    github: "https://github.com/taka-2628/los-angeles-urban-oilscape/",
+    medium: "",
+    collaborator: null,
+    collaborator_url: "",
+    selected: true,
+    tags: ["web", "data visualization"]
+  },
+  {
+    id: 3,
     title: "AMERICAN PETROLEUMSCAPE",
     subtitle: "Interactive Archive of Satelite Images of 155 Oil Refineries in America",
     image: petroleumscapeGif,
@@ -126,7 +143,7 @@ const web = [
     tags: ["web"]
   },
   {
-    id: 3,
+    id: 4,
     title: "Repository for New Media Art",
     subtitle: "Single-page Frontend with React and Sinatra Backend API",
     image: repoNewMediaArt,
@@ -143,7 +160,7 @@ const web = [
     tags: ["web"]
   },
   {
-    id: 4,
+    id: 5,
     title: "BUNDLE",
     subtitle: "Single-page Application with Vanilla JavaScript and JSON-server on Heroku",
     image: bundleGif,
@@ -160,7 +177,7 @@ const web = [
     tags: ["web"]
   },
   {
-    id: 5,
+    id: 6,
     title: "LIFE AND DEATH OF 52,711 ACTORS",
     subtitle: "Data Visualization with D3.js and Mapbox API",
     image: actorsGif,
