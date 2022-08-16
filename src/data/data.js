@@ -115,7 +115,7 @@ const web = [
     subtitle: "Interactive Map built with MapBox GL JS",
     image: urbanOilscape,
     thumbnail: urbanOilscape,
-    description: "Los Angeles | Urban Oilscape is developed as a part of a design/research project, which investigates the environmental and health issues around oil refineries in Los Angeles county. The 1-mile raidus circles around oil wells shows the extent of the health issues around the urban oil extraction in LA.",
+    description: "Los Angeles | Urban Oilscape is developed as a part of a design/research project, which investigates the environmental and health issues around oil refineries in Los Angeles county. The 1-mile radius circles around oil wells shows the extent of the health issues around the urban oil extraction in LA.",
     school: "Columbia University",
     year: 2022,
     url: "https://taka-2628.github.io/los-angeles-urban-oilscape/",
