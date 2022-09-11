@@ -12,6 +12,7 @@ import Continuum from "./SDTProjects/Continuum";
 import BambooFuturism from "./SDTProjects/BambooFuturism";
 import ExtractionReversed from "./SDTProjects/ExtractionReversed";
 import DesertOasis from "./SDTProjects/DesertOasis";
+import UrbanRural from "./SDTProjects/UrbanRural";
 
 import Footer from './Footer';
 
@@ -51,6 +52,9 @@ function SpaceDesignTech( {data} ){
           </Route>
           <Route exact path={`${match.url}/desert-oasis`}>
             <DesertOasis data={data}/>
+          </Route>
+          <Route exact path={`${match.url}/urban-rural`}>
+            <UrbanRural data={data}/>
           </Route>
           <Footer />
     </div>

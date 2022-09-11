@@ -91,6 +91,13 @@ import turRendering1 from "../assets/space-design-tech/ur-01.jpg";
 import turRendering2 from "../assets/space-design-tech/ur-02.jpg";
 import turRendering3 from "../assets/space-design-tech/ur-03.jpg";
 
+import liThumbnail from "../assets/space-design-tech/li-00.jpg";
+import liCover from "../assets/space-design-tech/li-01.jpg";
+import liChart1 from "../assets/space-design-tech/li-02.jpg";
+import liChart2 from "../assets/space-design-tech/li-03.jpg";
+import liChart3 from "../assets/space-design-tech/li-04.jpg";
+import liChart4 from "../assets/space-design-tech/li-05.jpg";
+
 const web = [
   {
     id: 1,
@@ -413,6 +420,26 @@ const sdt = [
       cover_image: turRendering1,
       image2: turRendering2,
       image3: turRendering3,
+    },
+    selected: false
+  },
+  {
+    id: "urban-rural",
+    title: "Urban-Rural Dichotomy in American Politics",
+    thumbnail: liThumbnail,
+    detail: {
+      year: 2021,
+      school: "Columbia University",
+      class: "Location Intelligence",
+      critic: "Carlo Bailey"
+    },
+    collaborators: null,
+    images: {
+      cover_image: liCover,
+      image2: liChart1,
+      image3: liChart2,
+      image4: liChart3,
+      image5: liChart4,
     },
     selected: false
   }
