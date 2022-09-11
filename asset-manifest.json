@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5ba70a13.css",
-    "main.js": "/static/js/main.591ee19f.js",
+    "main.js": "/static/js/main.b09cdb80.js",
     "static/media/mgi-shared-kitchen-01.mp4": "/static/media/mgi-shared-kitchen-01.b8ffafeb758b3db2ef06.mp4",
     "static/media/04-American-Petroleumscape.gif": "/static/media/04-American-Petroleumscape.78f47302ef90df4d5ac5.gif",
     "static/media/07-LA-Urban-Oilscape.gif": "/static/media/07-LA-Urban-Oilscape.fb00945170a35b420747.gif",
@@ -12,13 +12,19 @@
     "static/media/03-Baboon-Interactive-thumbnail.gif": "/static/media/03-Baboon-Interactive-thumbnail.e9302ddbea14457499fa.gif",
     "static/media/ur-01.jpg": "/static/media/ur-01.8c52bb5a3441b922eee2.jpg",
     "static/media/mgi-shared-kitchen-06.gif": "/static/media/mgi-shared-kitchen-06.90e62820c8710cee9fba.gif",
+    "static/media/li-02.jpg": "/static/media/li-02.6de595a25eece3466626.jpg",
     "static/media/ur-02.jpg": "/static/media/ur-02.dd4bc8df907bfaaf0ced.jpg",
     "static/media/mgi-how-to-do-nothing-00.gif": "/static/media/mgi-how-to-do-nothing-00.f6c7490f6ff90662f0e4.gif",
+    "static/media/li-05.jpg": "/static/media/li-05.7387248238bad13ed80b.jpg",
+    "static/media/li-03.jpg": "/static/media/li-03.8690620ee362b24bbe04.jpg",
     "static/media/c-III-02.jpg": "/static/media/c-III-02.77032ea8a3336fa1a52f.jpg",
+    "static/media/li-04.jpg": "/static/media/li-04.64580a7881330b36e5fa.jpg",
+    "static/media/li-01.jpg": "/static/media/li-01.42444c5cb2434b926298.jpg",
     "static/media/c-I-02.jpg": "/static/media/c-I-02.15a9d8de711ccc3f0d74.jpg",
     "static/media/c-III-01.jpg": "/static/media/c-III-01.0c907be8aac3bcfc9021.jpg",
     "static/media/c-II-01.png": "/static/media/c-II-01.0ee1394a013bfb542222.png",
     "static/media/c-I-07.jpg": "/static/media/c-I-07.c8735623acdbfd7b3ef4.jpg",
+    "static/media/li-00.jpg": "/static/media/li-00.8f5a6b5b9af2720ac4a2.jpg",
     "static/media/a-V-01.gif": "/static/media/a-V-01.3c1011c97e1052d37dfc.gif",
     "static/media/c-I-08.jpg": "/static/media/c-I-08.9a964e45ef01777ad338.jpg",
     "static/media/c-I-06.jpg": "/static/media/c-I-06.ff5d72995321c4a96ee4.jpg",
@@ -87,10 +93,10 @@
     "static/media/mgi-how-to-do-nothing-06.jpg": "/static/media/mgi-how-to-do-nothing-06.becafe88d303a29aed39.jpg",
     "index.html": "/index.html",
     "main.5ba70a13.css.map": "/static/css/main.5ba70a13.css.map",
-    "main.591ee19f.js.map": "/static/js/main.591ee19f.js.map"
+    "main.b09cdb80.js.map": "/static/js/main.b09cdb80.js.map"
   },
   "entrypoints": [
     "static/css/main.5ba70a13.css",
-    "static/js/main.591ee19f.js"
+    "static/js/main.b09cdb80.js"
   ]
 }
