@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ba70a13.css",
-    "main.js": "/static/js/main.dcdd1bba.js",
+    "main.css": "/static/css/main.8d927e53.css",
+    "main.js": "/static/js/main.b9529dc3.js",
     "static/media/mgi-shared-kitchen-01.mp4": "/static/media/mgi-shared-kitchen-01.b8ffafeb758b3db2ef06.mp4",
     "static/media/04-American-Petroleumscape.gif": "/static/media/04-American-Petroleumscape.78f47302ef90df4d5ac5.gif",
     "static/media/07-LA-Urban-Oilscape.gif": "/static/media/07-LA-Urban-Oilscape.fb00945170a35b420747.gif",
@@ -96,11 +96,11 @@
     "static/media/github-logo_white.png": "/static/media/github-logo_white.ec139bc4178082e22b22.png",
     "static/media/mgi-how-to-do-nothing-06.jpg": "/static/media/mgi-how-to-do-nothing-06.becafe88d303a29aed39.jpg",
     "index.html": "/index.html",
-    "main.5ba70a13.css.map": "/static/css/main.5ba70a13.css.map",
-    "main.dcdd1bba.js.map": "/static/js/main.dcdd1bba.js.map"
+    "main.8d927e53.css.map": "/static/css/main.8d927e53.css.map",
+    "main.b9529dc3.js.map": "/static/js/main.b9529dc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ba70a13.css",
-    "static/js/main.dcdd1bba.js"
+    "static/css/main.8d927e53.css",
+    "static/js/main.b9529dc3.js"
   ]
 }
