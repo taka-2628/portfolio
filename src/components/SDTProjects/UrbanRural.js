@@ -31,6 +31,10 @@ function UrbanRural({data}){
         <img className="urban-campsite-img" src={project.images.image3}></img>
         <img className="urban-campsite-img" src={project.images.image4}></img>
         <img className="urban-campsite-img" src={project.images.image5}></img>
+        <img className="urban-campsite-img" src={project.images.image6}></img>
+        <img className="urban-campsite-img" src={project.images.image7}></img>
+        <img className="urban-campsite-img" src={project.images.image8}></img>
+        <img className="urban-campsite-img" src={project.images.image9}></img>
       </div>
     </div>
   )
