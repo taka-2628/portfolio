@@ -97,6 +97,10 @@ import liChart1 from "../assets/space-design-tech/li-02.jpg";
 import liChart2 from "../assets/space-design-tech/li-03.jpg";
 import liChart3 from "../assets/space-design-tech/li-04.jpg";
 import liChart4 from "../assets/space-design-tech/li-05.jpg";
+import liChart5 from "../assets/space-design-tech/li-06.jpg";
+import liChart6 from "../assets/space-design-tech/li-07.jpg";
+import liChart7 from "../assets/space-design-tech/li-08.jpg";
+import liChart8 from "../assets/space-design-tech/li-09.jpg";
 
 const web = [
   {
@@ -440,6 +444,10 @@ const sdt = [
       image3: liChart2,
       image4: liChart3,
       image5: liChart4,
+      image6: liChart5,
+      image7: liChart6,
+      image8: liChart7,
+      image9: liChart8,
     },
     selected: false
   }
