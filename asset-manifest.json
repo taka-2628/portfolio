@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5ba70a13.css",
-    "main.js": "/static/js/main.88601a04.js",
+    "main.js": "/static/js/main.17ae0c68.js",
     "static/media/mgi-shared-kitchen-01.mp4": "/static/media/mgi-shared-kitchen-01.b8ffafeb758b3db2ef06.mp4",
     "static/media/04-American-Petroleumscape.gif": "/static/media/04-American-Petroleumscape.78f47302ef90df4d5ac5.gif",
     "static/media/07-LA-Urban-Oilscape.gif": "/static/media/07-LA-Urban-Oilscape.fb00945170a35b420747.gif",
@@ -15,10 +15,10 @@
     "static/media/li-02.jpg": "/static/media/li-02.6de595a25eece3466626.jpg",
     "static/media/ur-02.jpg": "/static/media/ur-02.dd4bc8df907bfaaf0ced.jpg",
     "static/media/mgi-how-to-do-nothing-00.gif": "/static/media/mgi-how-to-do-nothing-00.f6c7490f6ff90662f0e4.gif",
-    "static/media/li-05.jpg": "/static/media/li-05.7387248238bad13ed80b.jpg",
-    "static/media/li-03.jpg": "/static/media/li-03.8690620ee362b24bbe04.jpg",
+    "static/media/li-08.jpg": "/static/media/li-08.7387248238bad13ed80b.jpg",
+    "static/media/li-04.jpg": "/static/media/li-04.8690620ee362b24bbe04.jpg",
     "static/media/c-III-02.jpg": "/static/media/c-III-02.77032ea8a3336fa1a52f.jpg",
-    "static/media/li-04.jpg": "/static/media/li-04.64580a7881330b36e5fa.jpg",
+    "static/media/li-06.jpg": "/static/media/li-06.64580a7881330b36e5fa.jpg",
     "static/media/li-01.jpg": "/static/media/li-01.42444c5cb2434b926298.jpg",
     "static/media/c-I-02.jpg": "/static/media/c-I-02.15a9d8de711ccc3f0d74.jpg",
     "static/media/c-III-01.jpg": "/static/media/c-III-01.0c907be8aac3bcfc9021.jpg",
@@ -28,6 +28,7 @@
     "static/media/a-V-01.gif": "/static/media/a-V-01.3c1011c97e1052d37dfc.gif",
     "static/media/c-I-08.jpg": "/static/media/c-I-08.9a964e45ef01777ad338.jpg",
     "static/media/c-I-06.jpg": "/static/media/c-I-06.ff5d72995321c4a96ee4.jpg",
+    "static/media/li-03.jpg": "/static/media/li-03.9c1c4f997f24ea4cad76.jpg",
     "static/media/a-V-00.gif": "/static/media/a-V-00.23e511236e30b65b2df5.gif",
     "static/media/c-I-05.jpg": "/static/media/c-I-05.a3dd236df5bed9d2f7de.jpg",
     "static/media/a-VI-07.jpg": "/static/media/a-VI-07.6de3a8ee45785591b29f.jpg",
@@ -35,12 +36,15 @@
     "static/media/02-52711-Actors.gif": "/static/media/02-52711-Actors.3c02d7ba44ac2c4cee99.gif",
     "static/media/c-III-03.jpg": "/static/media/c-III-03.1c6fa3a60634fc08779f.jpg",
     "static/media/01-BUNDLE.gif": "/static/media/01-BUNDLE.c86945cc0ac26bb314fd.gif",
+    "static/media/li-07.jpg": "/static/media/li-07.0a6e8ef80d05d9cbf4b5.jpg",
     "static/media/c-I-03.jpg": "/static/media/c-I-03.ec47bd4650ca32e0a064.jpg",
     "static/media/c-I-04.jpg": "/static/media/c-I-04.50326e4bee5736a77a8b.jpg",
     "static/media/mgi-shared-kitchen-00.gif": "/static/media/mgi-shared-kitchen-00.b5328e08f4a1c1411a28.gif",
     "static/media/c-I-01.jpg": "/static/media/c-I-01.407368b39045f4ac0f9d.jpg",
     "static/media/ur-03.jpg": "/static/media/ur-03.e4e81c89c51e87107b0b.jpg",
+    "static/media/li-09.jpg": "/static/media/li-09.5d450bab623128637b33.jpg",
     "static/media/a-VI-05.jpg": "/static/media/a-VI-05.5142b0b78f083b79f6a7.jpg",
+    "static/media/li-05.jpg": "/static/media/li-05.6b31985102af88a1e148.jpg",
     "static/media/a-V-02.jpg": "/static/media/a-V-02.bbaed377b948d69f6b06.jpg",
     "static/media/a-VI-00.jpg": "/static/media/a-VI-00.5a3f127d30fcd6283014.jpg",
     "static/media/a-V-03.jpg": "/static/media/a-V-03.912f84f6a61e6670068d.jpg",
@@ -93,10 +97,10 @@
     "static/media/mgi-how-to-do-nothing-06.jpg": "/static/media/mgi-how-to-do-nothing-06.becafe88d303a29aed39.jpg",
     "index.html": "/index.html",
     "main.5ba70a13.css.map": "/static/css/main.5ba70a13.css.map",
-    "main.88601a04.js.map": "/static/js/main.88601a04.js.map"
+    "main.17ae0c68.js.map": "/static/js/main.17ae0c68.js.map"
   },
   "entrypoints": [
     "static/css/main.5ba70a13.css",
-    "static/js/main.88601a04.js"
+    "static/js/main.17ae0c68.js"
   ]
 }
