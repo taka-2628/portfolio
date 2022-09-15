@@ -93,14 +93,18 @@ import turRendering3 from "../assets/space-design-tech/ur-03.jpg";
 
 import liThumbnail from "../assets/space-design-tech/li-00.jpg";
 import liCover from "../assets/space-design-tech/li-01.jpg";
-import liChart1 from "../assets/space-design-tech/li-02.jpg";
-import liChart2 from "../assets/space-design-tech/li-03.jpg";
-import liChart3 from "../assets/space-design-tech/li-04.jpg";
-import liChart4 from "../assets/space-design-tech/li-05.jpg";
-import liChart5 from "../assets/space-design-tech/li-06.jpg";
-import liChart6 from "../assets/space-design-tech/li-07.jpg";
-import liChart7 from "../assets/space-design-tech/li-08.jpg";
-import liChart8 from "../assets/space-design-tech/li-09.jpg";
+import liChart2 from "../assets/space-design-tech/li-02.jpg";
+import liMap3L from "../assets/space-design-tech/li-03-l.jpg";
+import liMap3R from "../assets/space-design-tech/li-03-r.jpg";
+import liChart4 from "../assets/space-design-tech/li-04.jpg";
+import liMap5L from "../assets/space-design-tech/li-05-l.jpg";
+import liMap5R from "../assets/space-design-tech/li-05-r.jpg";
+import liChart6 from "../assets/space-design-tech/li-06.jpg";
+import liMap7L from "../assets/space-design-tech/li-07-l.jpg";
+import liMap7R from "../assets/space-design-tech/li-07-r.jpg";
+import liChart8 from "../assets/space-design-tech/li-08.jpg";
+import liMap9L from "../assets/space-design-tech/li-09-l.jpg";
+import liMap9R from "../assets/space-design-tech/li-09-r.jpg";
 
 const web = [
   {
@@ -440,14 +444,18 @@ const sdt = [
     collaborators: null,
     images: {
       cover_image: liCover,
-      image2: liChart1,
-      image3: liChart2,
-      image4: liChart3,
+      image2: liChart2,
+      image3: liMap3L,
+      image4: liMap3R,
       image5: liChart4,
-      image6: liChart5,
-      image7: liChart6,
-      image8: liChart7,
-      image9: liChart8,
+      image6: liMap5L,
+      image7: liMap5R,
+      image8: liChart6,
+      image9: liMap7L,
+      image10: liMap7R,
+      image11: liChart8,
+      image12: liMap9L,
+      image13: liMap9R
     },
     selected: false
   }

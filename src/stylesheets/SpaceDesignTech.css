@@ -142,3 +142,118 @@
   margin: 1.25%;
   z-index: -10;
 }
+
+/* URBAN-RURAL */
+.li-cover{
+  position: relative;
+  margin: 30px 0;
+  left: -20%;
+  width: 140%;
+}
+.li-county {
+  margin-top: 40px;
+  margin-bottom: 6px;
+}
+.li-county-info p {
+  margin: 3px 0;
+}
+.li-county-info .vote-pct-graph-cont {
+  margin: 3px 0;
+  height: 24px;
+}
+.li-county-info .li-label {
+  display: inline-block;
+  vertical-align: middle;
+  width: 46px;
+}
+.li-county-info .svg-cont {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+}
+.li-county-info span {
+  height: 1em;
+}
+.li-county-info svg {
+  position: relative;
+  vertical-align: middle;
+  height: 1em;
+  margin: 0;
+}
+.li-county-info .pct-span {
+  margin-left: 4px;
+  font-size: 0.75em;
+}
+.li-county-info rect {
+  height: 1em;
+  width: 100%;
+}
+.li-county-info .voting-rep rect{
+  fill: #ff0000;
+}
+.li-county-info .voting-dem rect{
+  fill: #0000ff;
+}
+
+.li-county-info #voting-rep-lancaster {
+  width: 44.9%;
+}
+.li-county-info #voting-dem-lancaster {
+  width: 52.7%;
+}
+.li-county-info #voting-rep-platte {
+  width: 77.8%;
+}
+.li-county-info #voting-dem-platte {
+  width: 20.8%;
+}
+.li-county-info #voting-rep-hall {
+  width: 66.4%;
+}
+.li-county-info #voting-dem-hall {
+  width: 31.5%;
+}
+.li-county-info #voting-rep-buffalo {
+  width: 70.5%;
+}
+.li-county-info #voting-dem-buffalo {
+  width: 26.9%;
+}
+.li-map-cont {
+  width: 100%;
+  margin: 20px 0;
+  background-color: #ffffff;
+  /*cursor: nesw-resize;*/
+  transition: transform .4s;
+}
+/*
+.li-map-cont:hover {
+  transform: scale(2);
+  z-index: 10;
+}
+*/
+.li-map-cont div {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+.li-map-cont div img {
+  width: 100%;
+}
+.scatter-plot-cont {
+  text-align: center;
+  /*cursor: nesw-resize;*/
+}
+.scatter-plot-cont img {
+  width: 100%;
+  transition: transform .4s;
+}
+/*
+.scatter-plot-cont img:hover {
+  transform: scale(1.5);
+  z-index: 10;
+}
+*/
+.li-img-caption {
+  font-size: 0.7em;
+}
